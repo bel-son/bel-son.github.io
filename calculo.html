@@ -1,1 +1,130 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="bel-son.githun.io/leia">
+  <meta name="description" content="Sate de promoções de arquivo de formação de formatos de apk e gerenciamento de redes sociais"> 
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="author" content="Belaon Quizomba Cateco">
+  
+    
+    <title>Quizomba</title>
+
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:#1e1e1e;
+            font-family:Arial;
+        }
+
+        .calculadora{
+            background:#2c2c2c;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0 0 10px #000;
+        }
+
+        #tela{
+            width:100%;
+            height:60px;
+            margin-bottom:15px;
+            font-size:30px;
+            text-align:right;
+            padding:10px;
+            border:none;
+            border-radius:10px;
+            background:#000;
+            color:#00ff88;
+        }
+
+        .botoes{
+            display:grid;
+            grid-template-columns:repeat(4,70px);
+            gap:10px;
+        }
+
+        button{
+            height:60px;
+            font-size:22px;
+            border:none;
+            border-radius:10px;
+            cursor:pointer;
+            background:#444;
+            color:white;
+        }
+
+        button:hover{
+            background:#666;
+        }
+
+        .igual{
+            background:green;
+        }
+
+        .limpar{
+            background:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculadora">
+        <h1 Style="color: white;">calculadora profissional bel</h1>
+          <a style="color: white; text-decoration: none; background-image: linear-gradient(20deg,red,black); border: 1px solid black;border-radius: 30px;" class="" href="polo.html">voltar atrás</a>
+        <input type="text" id="tela" disabled>
+
+        <div class="botoes">
+            <button onclick="limpar()" class="limpar">C</button>
+            <button onclick="adicionar('/')" >÷</button>
+            <button onclick="adicionar('*')">x</button>
+            <button onclick="adicionar('-')">-</button>
+
+            <button onclick="adicionar('7')">7</button>
+            <button onclick="adicionar('8')">8</button>
+            <button onclick="adicionar('9')">9</button>
+            <button onclick="adicionar('+')">+</button>
+
+            <button onclick="adicionar('4')">4</button>
+            <button onclick="adicionar('5')">5</button>
+            <button onclick="adicionar('6')">6</button>
+            <button onclick="calcular()" class="igual">=</button>
+
+            <button onclick="adicionar('1')">1</button>
+            <button onclick="adicionar('2')">2</button>
+            <button onclick="adicionar('3')">3</button>
+            <button onclick="adicionar('.')">.</button>
+
+            <button onclick="adicionar('0')" style="grid-column:span 4;">
+                0
+                
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function adicionar(valor){
+            document.getElementById("tela").value += valor;
+        }
+
+        function limpar(){
+            document.getElementById("tela").value = "";
+        }
+
+        function calcular(){
+            let tela = document.getElementById("tela");
+
+            try{
+                tela.value = eval(tela.value);
+            }
+            catch{
+                tela.value = "Erro";
+            }
+        }
+    </script>
+
+</body>
+  </html>
