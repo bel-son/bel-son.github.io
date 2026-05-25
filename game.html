@@ -1,1 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="bel-son.githun.io/leia">
+  <meta name="description" content="Sate de promoções de arquivo de formação de formatos de apk e gerenciamento de redes sociais"> 
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="author" content="Belaon Quizomba Cateco">
+  
+<title>Mini Football Game</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:red;
+    overflow:hidden;
+}
+
+#campo{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop') center/cover;
+    overflow:hidden;
+}
+
+/* Jogador */
+#jogador{
+    position:absolute;
+    width:70px;
+    height:70px;
+    background:url('https://cdn-icons-png.flaticon.com/512/53/53283.png') center/cover;
+    left:100px;
+    top:300px;
+}
+
+/* Bola */
+#bola{
+    position:absolute;
+    width:45px;
+    height:45px;
+    background:white;
+    border-radius:50%;
+    border:3px solid black;
+    left:180px;
+    top:320px;
+}
+
+/* Gol */
+#gol{
+    position:absolute;
+    right:0;
+    top:35%;
+    width:40px;
+    height:180px;
+    background:white;
+    border-left:5px solid red;
+}
+
+/* Pontos */
+#placar{
+    position:absolute;
+    top:10px;
+    left:10px;
+    color:white;
+    font-size:28px;
+    background:rgba(0,0,0,0.5);
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+/* Controles */
+#controles{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.lado{
+    display:grid;
+    grid-template-columns:70px 70px 70px;
+    grid-template-rows:70px 70px 70px;
+    gap:5px;
+}
+
+.btn{
+    background:rgba(255,255,255,0.7);
+    border:none;
+    border-radius:15px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+#chutar{
+    width:120px;
+    height:120px;
+    border:none;
+    border-radius:50%;
+    background:orange;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<div id="campo">
+
+    <div id="placar">
+        Gols: <span id="pontos">0</span>
+    </div>
+
+    <div id="jogador"></div>
+    <div id="bola"></div>
+    <div id="gol"></div>
+
+    <div id="controles">
+
+        <div class="lado">
+            <div></div>
+            <button class="btn" onclick="mover('cima')">↑</button>
+            <div></div>
+
+            <button class="btn" onclick="mover('esquerda')">←</button>
+            <div></div>
+            <button class="btn" onclick="mover('direita')">→</button>
+
+            <div></div>
+            <button class="btn" onclick="mover('baixo')">↓</button>
+            <div></div>
+        </div>
+
+        <button id="chutar" onclick="chutar()">
+            CHUTE
+        </button>
+
+    </div>
+
+</div>
+
+<script>
+
+let jogador = document.getElementById("jogador");
+let bola = document.getElementById("bola");
+let pontos = document.getElementById("pontos");
+
+let x = 100;
+let y = 300;
+
+let bx = 180;
+let by = 320;
+
+let gols = 0;
+
+function mover(direcao){
+
+    let velocidade = 20;
+
+    if(direcao == "cima") y -= velocidade;
+    if(direcao == "baixo") y += velocidade;
+    if(direcao == "esquerda") x -= velocidade;
+    if(direcao == "direita") x += velocidade;
+
+    jogador.style.left = x + "px";
+    jogador.style.top = y + "px";
+
+    // Bola acompanha o jogador
+    let distanciaX = Math.abs(x - bx);
+    let distanciaY = Math.abs(y - by);
+
+    if(distanciaX < 80 && distanciaY < 80){
+        bx = x + 60;
+        by = y + 20;
+
+        bola.style.left = bx + "px";
+        bola.style.top = by + "px";
+    }
+}
+
+function chutar(){
+
+    let intervalo = setInterval(() => {
+
+        bx += 15;
+
+        bola.style.left = bx + "px";
+
+        // Gol
+        if(bx > window.innerWidth - 60 &&
+           by > window.innerHeight * 0.35 &&
+           by < window.innerHeight * 0.65){
+
+            gols++;
+            pontos.innerText = gols;
+
+            alert("GOOOOOOL!");
+
+            bx = 180;
+            by = 320;
+
+            bola.style.left = bx + "px";
+            bola.style.top = by + "px";
+
+            clearInterval(intervalo);
+        }
+
+        // Saiu do campo
+        if(bx > window.innerWidth){
+            bx = x + 60;
+            by = y + 20;
+
+            bola.style.left = bx + "px";
+            bola.style.top = by + "px";
+
+            clearInterval(intervalo);
+        }
+
+    }, 30);
+}
+
+</script>
+
+</body>
+     </html>
