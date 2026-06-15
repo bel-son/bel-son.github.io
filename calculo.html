@@ -1,131 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="keywords" content="bel-son.githun.io/leia">
-  <meta name="description" content="Sate de promoções de arquivo de formação de formatos de apk e gerenciamento de redes sociais"> 
-   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-   <meta name="author" content="Belaon Quizomba Cateco">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="authe" content="Belson Quizomba Cateco">
+  <mata name="keywords" content="leia. Belson Quizomba, Bibiana mamãe">
+  <mata name="description" content="Este site foi criado para poder fazer postagens do meu trabalho de programação, alem de saber linguaguem de marcação também sei programar em outras linguagens, por isso pretendo contribuir com meu trabalho, para que a internet seja um lugar sólido com muitos acolhimento, para que os usuários que tem dificultado em programação podem vir até ao meu domínio de programação web">  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   
-    
-    <title>Quizomba</title>
-
-    <style>
-        body{
-            text-align: center;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            height:100vh;
-            background:#1e1e1e;
-            font-family:Arial;
-        }
-
-        .calculadora{
-            background:#2c2c2c;
-            padding:20px;
-            border-radius:15px;
-            box-shadow:0 0 10px #000;
-        
-        }
-
-        #tela{
-            width:100%;
-            height:60px;
-            margin-bottom:15px;
-            font-size:30px;
-            text-align:right;
-            padding:10px;
-            border:none;
-            border-radius:10px;
-            background:#000;
-            color:#00ff88;
-        }
-
-        .botoes{
-            display:grid;
-            grid-template-columns:repeat(4,70px);
-            gap:10px;
-        }
-
-        button{
-            height:60px;
-            font-size:22px;
-            border:none;
-            border-radius:10px;
-            cursor:pointer;
-            background:#444;
-            color:white;
-        }
-
-        button:hover{
-            background:#666;
-        }
-
-        .igual{
-            background:green;
-        }
-
-        .limpar{
-            background:red;
-        }
-    </style>
+  <title>Quizomba: E programação web</title>
+  
+  
+  <link rel="stylesheet" href="calculo.css">
+  
+  <style>
+    .topo{
+  text-align: center;
+  font-size: 30px;
+  background-image: linear-gradient(50deg,black,#131854);
+  height: 700px;
+  width: 100%;
+  border-radius: 10px;
+}
+.texto{
+  padding: 8px 8px 5px 5px;
+  font-size: 20px;
+  background: white;
+  color: red;
+  margin-top: 20px;
+}
+.leia{
+  background: black;
+  color: red;
+  font-size: 30px;
+  padding-left: 13px;
+  padding-right: 15px;
+}
+.belson{
+  font-size: 30px;
+  background: red;
+  color: white;
+}
+.nono{
+  margin-right: 150px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  background-image: linear-gradient(1deg,blue,#131854);
+  
+}
+.amor{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  background-color: black;
+  height: 30px;
+  width: 100%;
+}
+.choco{
+  font-size: 23px;
+  margin-left: 100px;
+  position: fixed;
+  top: 0%;
+  left: 63%;
+}
+.forma{
+  margin-left: 40px;
+  background: #191D49;
+  border-radius: 20px;
+  color: white;
+}
+.terra{
+  padding-right: 10px;
+  font-size: 23px;
+}
+.fogo{
+  background-color: black;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+}
+  </style>
+  
 </head>
 <body>
-    <div class="calculadora">
-        <h1 Style="color: white;">calculadora profissional bel</h1>
-          <a style="color: white; text-decoration: none; background-image: linear-gradient(20deg,red,black); border: 1px solid black;border-radius: 30px;" class="" href="polo.html">voltar atrás</a>
-        <input type="text" id="tela" disabled>
-
-        <div class="botoes">
-            <button onclick="limpar()" class="limpar">C</button>
-            <button onclick="adicionar('/')" >÷</button>
-            <button onclick="adicionar('*')">x</button>
-            <button onclick="adicionar('-')">-</button>
-
-            <button onclick="adicionar('7')">7</button>
-            <button onclick="adicionar('8')">8</button>
-            <button onclick="adicionar('9')">9</button>
-            <button onclick="adicionar('+')">+</button>
-
-            <button onclick="adicionar('4')">4</button>
-            <button onclick="adicionar('5')">5</button>
-            <button onclick="adicionar('6')">6</button>
-            <button onclick="calcular()" class="igual">=</button>
-
-            <button onclick="adicionar('1')">1</button>
-            <button onclick="adicionar('2')">2</button>
-            <button onclick="adicionar('3')">3</button>
-            <button onclick="adicionar('.')">.</button>
-
-            <button onclick="adicionar('0')" style="grid-column:span 4;">
-                0
-                
-            </button>
-        </div>
-    </div> <br> <br>
-
-    <script>
-        function adicionar(valor){
-            document.getElementById("tela").value += valor;
-        }
-
-        function limpar(){
-            document.getElementById("tela").value = "";
-        }
-
-        function calcular(){
-            let tela = document.getElementById("tela");
-
-            try{
-                tela.value = eval(tela.value);
-            }
-            catch{
-                tela.value = "Erro";
-            }
-        }
-    </script>
-
+  
+  <div class="amor">
+     <form action="https://google.com" method="get">
+      <a class="terra" href="apk.html">🔙</a>
+      <input type="text" class="forma" placeholder="pesquisar no Google" required>
+          <a class="choco" href="https://bel-son.github.io" target="_blank">🌐</a>
+    </form>
+    
+  </div>
+  
+  
+  <br>
+  
+  <div class="topo">
+  <form action="" name="calculadora" method="get" accept-charset="utf-8">
+    
+    <input type="text" class="texto" name="text1" disabled><br><br>
+    <input type="button" name="text" class="nono" value="❌" onclick="location.reload()">
+  <br>
+    
+    
+    <input type="button" class="leia" name="b9" value="9" onclick="digite(b9.value)">
+    <input type="button" class="leia" name="b8" value="8" onclick="digite(b8.value)">
+    <input type="button" class="leia" name="b7" value="7" onclick="digite(b7.value)">
+  
+    <br>
+  
+  
+  
+    <input type="button" class="leia" name="b6" value="6" onclick="digite(b6.value)">
+    <input type="button" class="leia" name="b5" value="5" onclick="digite(b5.value)">
+    <input type="button" class="leia" name="b4" value="4" onclick="digite(b4.value)">
+    <br>
+  
+    <input type="button" class="leia" name="b3" value="3" onclick="digite(b3.value)">
+    <input type="button" class="leia" name="b2" value="2" onclick="digite(b2.value)">
+    <input type="button" class="leia" name="b1" value="1" onclick="digite(b1.value)"><br>
+    <input type="button" name="be1" class="leia" value="0" onclick="digite(be1.value)"><br><br>
+    
+    
+      <input type="button" class="belson" name="be2" value="/" onclick="digite(be2.value)">
+    <input type="button" class="belson" name="soma" value="+" onclick="digite(soma.value)">
+    <input type="button" class="belson" name="meno" value="-" onclick="digite(meno.value)">
+    <input type="button" name="igual" class="belson" value="=" onclick="text1.value=eval(text1.value)">
+    <input type="button" class="belson" name="multi" value="*" onclick="digite(multi.value)">
+    <input type="button" class="belson" name="top" value="." onclick="digite(top.value)">
+    <input type="button" class="belson" name="parente2" value=")" onclick="digite(parente2.value)">
+    <input type="button" class="belson" name="parente1" value="(" onclick="digite(parente1.value)">
+    <br>
+  
+  </form>
+  </div>
+  
+  
+  <script type="text/javascript" charset="utf-8">
+    function digite(n1){
+      calculadora.text1.value=calculadora.text1.value + n1;
+    }
+    
+    
+  </script>
+  
 </body>
-  </html>
+                                                                   </html>
