@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belson Software</title>
+  
+  
+  
+  <style>
+    .limpa{
+  background: white;
+  position: fixed;
+  top: 2%;
+  right: 3%;
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px 4px 4px;
+  color: black;
+  font-size: 12px;
+}
+button{
+  position: fixed;
+  top: 2%;
+  left: 3%;
+  background: white;
+}
+#numero{
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  background: black;
+  color: red;
+  font-size: 15px;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-left: 1px solid white;
+}
+.top{
+  position: fixed;
+  top: 0%;
+  color: #FF9C06;
+  left: 25%;
+  border-bottom: 2px dotted red;
+}
+.nove{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+}
+#texto{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#java{
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  background: black;
+  color: white;
+  font-size: 15px;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-right: 1px solid white;
+}
+input{
+  background: white;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.volta{
+  position: fixed;
+  bottom: 18%;
+  left: 0%;
+  font-size: 29px;
+}
+  </style>
+  
+</head>
+<body>
+  
+  
+  <div class="nove">
+  <h2 class="top">Tabuadas (B.L.S)</h2>
+  </div>
+
+  <h2 id="texto"></h2>
+  
+  <input type="number" id="java" value="" placeholder="numero da operação">
+  <input type="number" id="numero" placeholder="digite numero para calcular">
+  <button onclick="fazer()" type="submit">Calcular</button>
+  <a href="index.html" class="limpa"><b>Limpar</b></a>
+  
+  <a class="volta" href="inde">❌</a>
+  
+  <div class="menu">
+    <p style="position: fixed; top: 10%;"><b style="color: red;">Digite número</b><br><b style="color: red;">1.</b> subtração (-) <br><b style="color: red;">2.</b> multiplicação (x) <br><b style="color: red;">3.</b> divisão (÷)</p>
+  </div>
+
+  
+  <script src="index.js"></script>
+</body>
+
+                                              </html>
