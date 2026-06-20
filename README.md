@@ -1,31 +1,15 @@
 # bel-son.github.io
-# [Instalação residência] ⚡
-### Instalações Elétricas Residenciais & Industriais | [Cidade - Província]
+# [Linguagem de programação] ⚡
+### Construtor de site e gestor de software de gestão| [Viana - Vila de viana]
 
 <div align="center">
-  <img src="logo.png" alt="Logo [Nome da Empresa]" width="200">
+  <img src="logo.png" alt="Logo [Aula de desenvolvimento de software do básico ate o mais avançado]" width="100">
 
-  <p><b>Energia segura, serviço confiável 24h</b></p>
+  <p><b> para mais informações também presto serviços de desenvolvimento da web 24h</b></p>
   <p>📞 <a href="tel:+244 956102043">[+244 956102043]</a> | 📧 [belsonquizomba6@gmail.com]</p>
 </div>
 
 ---
 
-### Sobre Nós
-A [Prestação de serviço doméstico] é especializada em soluções elétricas há [3] anos em Angola.
-Trabalhamos com segurança, qualidade e preço justo pra residências, empresas e obras.
-
-### Nossos Serviços
-- **Residencial**: Instalação, manutenção, quadro elétrico, iluminação LED
-- **Industrial**: Quadros trifásicos, geradores, painéis solares
-- **Urgência 24h**: Curto-circuito, queda de energia, disjuntor desarmando
-- **Certificação**: Inspeção elétrica e emissão de laudos técnicos
-
-### Por que nos escolher?
-✅ Técnicos certificados e experientes
-✅ Orçamento grátis sem compromisso
-✅ Garantia em todos os serviços
-✅ Atendimento rápido em [Luanda] e arredores
-
-### Contacto & Orçamento
-📍 **Endereço**: [Rua, capalanca
+### Sobre programador 
+desenvolvolve este site para ajudar os pessoal que esta aflição de apreender a programar, ensinar linguagem de alto nivel para aplicação de empresas grades e microempresa.
