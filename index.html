@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
   <meta charset="UTF-8">
@@ -10,32 +10,44 @@
 
  
   <title>Quizomba: E programação web</title>
+  
   <link rel="stylesheet" href="index.css">
   
   <style>
+  .mover{
+    background: black;
+    height: 850px;
+  }
     body{
-  font-family: 'Times New Roman', Times, serif;
-  background: white;
-  color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    color: black;
 }
 .topo{
-  border-radius: 0px;
-  background-image: linear-gradient(1deg, black,#172177);
-  padding-left: 15%;
-  padding-right: 40%;
-  color: black;
+   background-image: linear-gradient(1deg, black,#172177);
+   padding-left: 15%;
+   padding-right: 40%;
+   color: black;
   position: fixed;
   top: 0%;
   left: 0%;
   right: 0%;
   font-size: 18px;
   color: white;
-  border-bottom: 3px solid white;
+}
+.topo a{
+  font-size: 12px;
+  position: fixed;
+  top: 1%;
+  right: 2%;
+  text-decoration: none;
+  background: white;
+  padding: 3px 3px 2px 2px;
+  border-radius: 8px;
 }
 .kota{
  background-image: linear-gradient(0deg,#172177,black,black);
  height: 300px;
- border-radius: 30px;
 }
 h2{
   text-align: center;
@@ -95,26 +107,13 @@ p{
   text-decoration: none;
   color: white;
 }
-.fundo{
-  padding-top: 8px;
-  position: fixed;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
-  background-image: linear-gradient(2deg, black,#172177);
-  border-top: 2px solid #989AAF;
-  padding-left: 317px;
-  margin-right: 60px;
-  border-radius: 10px;
-}
 .outro{
   background: #FFBD00;
   height: 240px;
-  box-shadow: 10px 10px 17px black;
 }
 .ponta{
-  background: #070E46;
-  height: 90px;
+  background: black;
+  height: 98px;
   width: 100%;
   font-size: 50px;
   text-align: center;
@@ -131,30 +130,43 @@ p{
   height: 400px;
   width: 100%;
   color: white;
-  border-radius: 40px;
 }
 .fone1{
   margin-left: 40px;
   margin-top: 30px;
-  box-shadow: 10px 10px 16px black;
 }
 .par{
   margin-bottom: 100%;
   color: yellow;
   text-align: center;
 }
+#cor{
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  padding-top: 2%;
+  background-image: linear-gradient(2deg, black,#172177);
+}
     
   </style>
   
-  
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
   <!--aqui e o topo do site onde declarei os meu nome ao meu site como um topo belson sevings-->
+  <div class="mover">
+ 
   <div class="topo">
     <p style="border-bottom: 2px solid white; color: red;">Belson Software</p>
+  <form action="codigo.html" method="get" accept-charset="utf-8">
+    <button onclick="faz()" style="position: fixed; top: 2%; right: 2%; color: red;" type="submit">Login</button>
+  </form>
   </div><br><br>
   <hr> 
+  
+
   
   <!--aqui está o começo do fundo onde fiz declaração do meu segundo fundo preto em diante toda mensagem será postado aqui-->
   <div class="kota">
@@ -168,8 +180,8 @@ p{
     
    <!-- informações do site para o usuário ver a função e o objetivo do site -->  
     <div>
-      <h2 style="font-size: 18px; margin-top: 10%;">Dica do programador</h2>
-      <p>Este site foi desenvolvido pôr programador web:<b> Belson Quizomba Cateco</b>. Vim por meio deste site para poder mostrar o quê só capaz de fazer com as linguaguem de marcação (HTML & CSS), também estou preparado para poder servir os usuários que pretende ter um página web, Pois criei esta página para poder resolver os problemas de conteúdo sobre a web. <a href="informe.html" style="">mais informações do site</a></p> <br><br>
+      <h2 style="font-size: 18px; margin-top: 10%; color: red;">Dica do programador</h2>
+      <p style="color: white;">Este site foi desenvolvido pôr programador web:<b><u>Belson Quizomba Cateco</u></b>. Criei está página web para poder mostrar o quê só capaz de fazer com as linguaguem de marcação (HTML & CSS), também estou preparado para poder servir os usuários que pretende ter um página web, Pois criei esta página para poder resolver os problemas de conteúdo sobre a web. <a href="informe.html" style="">mais informações do site</a></p> <br><br>
       <div class="lobo">
       <h3>Serviços do site</h3>
      </div>
@@ -181,15 +193,17 @@ p{
      <div class="outro">
        <p class="ponta1">🌏</p>
     <p class="ponta">🌟</p>
-      <p style="color: red;">para criar seu Blogger é fácil, seguro quando seguires esses passos a passo. Aprenda e grátis disponível no seu servidor</p>
+      <p style="color: red; text-align: center;">para criar seu Blogger é fácil, é seguro quando seguires esses passos a passo. Aprenda já de forma gratuita.</p>
     <br><br>
     
     <img width="100%" src="/Screenshot_20260526-002605~2.jpg" alt="">
     <br><br><br>
     
+    <!-- declaração dos vídeos com uma mensagem-->
+    
     <div class="fone">
       
-    <video class="fone1" height="100px" controls width="70%" preload="none" autoplay="autoplay"poster="/1781201223802.PNG" controls disablepictureinpicture autoplay height="170px" controlslist="nodowloand nofullscreen">
+    <video  class="fone1" height="100px" controls width="70%" preload="none" autoplay poster="/1781201223802.PNG" controls disablepictureinpicture autoplay height="170px" controlslist="nodowloand nofullscreen">
            
       <source src="/VID-20260602-WA0009.mp4" type="">
     </video>
@@ -201,7 +215,11 @@ p{
   </div>
    </div>
   </div>
+  
+  
   <!--simulação dos links em forma do aplicativo em tipo musica, vídeo, configurar, -->
+ <div id="cor">
+   
   <div class="fundo">
     <p style="color: black; margin-bottom: 50px;">___</p>
   </div>
@@ -213,12 +231,12 @@ p{
       
       
   <div class="navegador1">
-    <a id="foto2" href="apk.html">&nbsp; <img height="60px" src="/1781362746661.PNG" style="border-radius: 60px;" alt=""><br>Aplicativos</a>
+    <a id="foto2" href="apk.html">&nbsp; <img height="60px" src="/1781362746661.PNG" style="border-radius: 60px;" alt=""><br>Acessório</a>
   </div>
   
   
    <div class="navegador2">
-    <a id="foto3" href="https://google.com"> <img height="60px" src="/1781210358164.PNG" style="border-radius: 60px;" alt=""><br>Google</a>
+    <a id="foto3" href="algoritmo.html"> <img height="60px" src="/1781210358164.PNG" style="border-radius: 60px;" alt=""><br>Algoritmo</a>
   </div>
   
   
@@ -226,9 +244,10 @@ p{
     <a id="foto4" href="video.html"> <img height="60px" src="/1781201223802.PNG" style="border-radius: 60px;" alt=""><br>Vídeos</a>
   </div>
   
-  
+  </div>
+  </div>
   <script src="input.js"></script>
   
     
 </body>
-  </html>
+      </html>
