@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="PT-BR">
 <head>
   <meta charset="UTF-8">
@@ -24,7 +24,7 @@
     color: black;
 }
 .topo{
-   background-image: linear-gradient(1deg, black,#172177);
+   background-image: linear-gradient(1deg, #FF9205);
    padding-left: 15%;
    padding-right: 40%;
    color: black;
@@ -32,8 +32,11 @@
   top: 0%;
   left: 0%;
   right: 0%;
-  font-size: 18px;
-  color: white;
+  font-size: 19px;
+}
+.topo p{
+  color: black;
+  border-bottom: 2px dotted red;
 }
 .topo a{
   font-size: 12px;
@@ -46,7 +49,7 @@
   border-radius: 8px;
 }
 .kota{
- background-image: linear-gradient(0deg,#172177,black,black);
+ background-image: linear-gradient(0deg,blue,red,black);
  height: 300px;
 }
 h2{
@@ -63,7 +66,7 @@ p{
   text-indent: 10px;
 }
 .lobo{
-  background-image: url('/Screenshot_20260524-005320~2.jpg');
+  background-image: url('/Screenshot_20260617-064427~2.jpg');
   background-size: cover;
   height: 200px;
 }
@@ -91,19 +94,19 @@ p{
   bottom: 1%;
   left: 80%;
 }
-#foto1{
+.foto1{
   text-decoration: none;
   color: white;
 }
-#foto2{
+.foto2{
   text-decoration: none;
   color: white;
 }
-#foto3{
+.foto3{
   text-decoration: none;
   color: white;
 }
-#foto4{
+.foto4{
   text-decoration: none;
   color: white;
 }
@@ -120,14 +123,16 @@ p{
   text-shadow: 5px 5px 10px yellow;
 }
 .ponta1{
+  position: sticky;
+  bottom: 0%;
   text-align: center;
   font-size: 70px;
   text-shadow: 30px 30px 50px black;
 }
 .fone{
   margin-top: 20px;
-  background-image: linear-gradient(1deg, black,#172177,black);
-  height: 400px;
+  background-image: linear-gradient(1deg, black,#FF9205);
+  height: 600px;
   width: 100%;
   color: white;
 }
@@ -136,7 +141,6 @@ p{
   margin-top: 30px;
 }
 .par{
-  margin-bottom: 100%;
   color: yellow;
   text-align: center;
 }
@@ -146,22 +150,108 @@ p{
   left: 0%;
   right: 0%;
   padding-top: 2%;
-  background-image: linear-gradient(2deg, black,#172177);
+  background-image: linear-gradient(2deg,black, black, red,red);
+}
+button{
+  margin-bottom: 6px;
+  padding: 6px 6px 4px 4px;
+  color: red;
+}
+.ola{
+  overflow: auto;
+  border-top: 2px solid  #FF9205;
+}
+.ola img{
+  float: left;
+}
+.leia{
+  position: sticky;
+  bottom: 0%;
+  background: url('/.trashed-1784814083-1782212726132.PNG');
+  background-size: cover;
+  border-bottom: 20px dashed red;
+}
+.leia a{
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-image: linear-gradient(1deg,white,black);
+  width: 50%;
+  margin-left: 90px;
+  color: yellow;
+  text-shadow: 3px 3px 5px black;
+}
+.leia p{
+  margin-bottom: 50px;
+}
+.leia button{
+  margin-top: 10px;
+  background: darkred;
+  color: yellow;
+}
+.eva{
+  border-left: 1px dotted black;
+  border-bottom: 1px dotted black;
+  border-right: 1px dotted black;
+  text-align: center;
+  color: red;
+  background: url('/IMG-20260516-WA0009.jpg');
+  background-size: cover;
+  height: 500px;
+}
+.dior{
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#img{
+  margin-top: 140px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+#leva{
+  display: inline;
+  position: relative;
+  bottom: 18px;
+  margin-left: 10px;
+  z-index: 1;
+}
+#leva1{
+  display: inline;
+  position: relative;
+  bottom: 0px;
+  left: 6px;
+  z-index: 2;
 }
     
   </style>
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "audio.mp3",
+  "name": "/_Mister_Dior_&amp;_Silvo_Andrade_Chorar_o_nené_prod_by_Mt_Produções.mp3",
+  "description": "Artista talentoso, que quer ser reconhecido pelo mundo ele é um artista de Kuduro de boa voz e com muito talento",
+  "contentUrl": "https://github.io",
+  "UploaDate": "2026-06-27",
+  "duration": "PT3M00S"
+}
+</script>
+
+  
+  
 </head>
-<body>
+<body id="texto">
+  
   
   <!--aqui e o topo do site onde declarei os meu nome ao meu site como um topo belson sevings-->
   <div class="mover">
  
-  <div class="topo">
-    <p style="border-bottom: 2px solid white; color: red;">Belson Software</p>
-  <form action="login.html" method="get" accept-charset="utf-8">
-    <button onclick="faz()" style="position: fixed; top: 2%; right: 2%; color: red;" type="submit">Login</button>
+  <div id="topo" class="topo">
+    <p>Belson Software</p>
+  <form action="login.html" method="post">
+    <button onclick="faz()" style="position: fixed; top: 2%; right: 2%; color: red; background: black;" type="submit">Login</button>
   </form>
   </div><br><br>
   <hr> 
@@ -169,12 +259,12 @@ p{
 
   
   <!--aqui está o começo do fundo onde fiz declaração do meu segundo fundo preto em diante toda mensagem será postado aqui-->
-  <div class="kota">
+  <div id="leia" class="kota">
     <h2 style="color: white;">Programação web 🌏</h2>
      <p style="color: white; text-align: center;">Compartilhe meu site com teus amigos</p>
     <!--comandos para utilizar no vídeo autoplay nodowloand nofullscreen -->
     <video class="choco" poster="/1781201223802.PNG" controls disablepictureinpicture autoplay height="170px" controlslist="nodowloand nofullscreen">
-      <p style="color: white;">Compartilhe meu site com yeus amigos</p>
+      <p style="color: white;">Compartilhe meu site com teus amigos</p>
       <source src="/VID-20260602-WA0010.mp4" >
     </video>
     
@@ -183,21 +273,36 @@ p{
       <h2 style="font-size: 18px; margin-top: 10%; color: red;">Dica do programador</h2>
       <p style="color: white;">Este site foi desenvolvido pôr programador web:<b><u>Belson Quizomba Cateco</u></b>. Criei está página web para poder mostrar o quê só capaz de fazer com as linguaguem de marcação (HTML & CSS), também estou preparado para poder servir os usuários que pretende ter um página web, Pois criei esta página para poder resolver os problemas de conteúdo sobre a web. <a href="informe.html" style="">mais informações do site</a></p> <br><br>
       <div class="lobo">
-      <h3>Serviços do site</h3>
+      <h3 style="background:  #FF9205;">Serviços do site</h3>
      </div>
 
       <p>Hospedagem de serviços de atendimento dos clientes. <br>Este site está disponível conteúdo de formatos em mp4, disponível vídeo de animação de entretenimento, e para aqueles que querem saber como desenvolver (apreender) uma página web é só inscrever-se neste site. Audio em MP3 de cantores talentoso disponível aqui no <u>Belson Sevings</u>.</p>
-
+      <h2 style="text-align: center;">Obs...</h2>
+      <p style="text-align: center;">Video aula de como ser um desenvolvidor da web aqui no meu site oficial Belson software segue este site para apreender programar com computador e celular. <br>Compartilhe meu site com teu amigos para ter acesso total dos vídeos clique no <b style="color: red;">Login</b> ou podes assistir os vídeos clicando no vídeos abaixo da barra de menu.</p>
     
     
      <div class="outro">
        <p class="ponta1">🌏</p>
-    <p class="ponta">🌟</p>
-      <p style="color: red; text-align: center;">para criar seu Blogger é fácil, é seguro quando seguires esses passos a passo. Aprenda já de forma gratuita.</p>
-    <br><br>
+    <p class="ponta">🌟</p><br><br><br><br><br>
+      <div class="ola">
+      <h3>Aprenda criar site com celular</h3>
+      <img id="topo" src="/IMG-20260617-WA0004.jpg" height="340px">
+      <p>Para poderes ser programador web com celular é muito simples para aqueles pessoal que o interesse de ser desenvolvidor da página web. <br>Primeira coisa antes de tudo deves ter o domínio (conhecimento) sobre há linguaguem de marcação (<b style="color: red;">HTML</b>). O quê é uma linguagem de marcação HTML? <br>Uma linguagem de marcação de marcação HTML (Hyper text markup Languangue ou "linguagem de marcação de hipertexto") E o alcance fundamental da internet. não é uma linguagem de programação mais sim uma linguagem de marcação que organiza a estrutura o conteúdo do sites como o texto e imagens, vídeos, audios, formulário. essa é uma ferramenta fundamental da internet pôr que grandes indústrias possuem o endereço de um site para poder ser mais alcançado pelos clientes apartir de qualquer de lugar. </p>
+      <p>Para poder aprender é necessário que tenhamos o <b style="color: red;">Editor Spock</b> instalado no celular esses aplicativos esta disponível na PlayStore. <br>Segue meu vídeo de tutorial de aula de HTML no editor Spock totalmente grátis sem nenhum custo Adicionar.</p>
+    </div>
     
-    <img width="100%" src="/Screenshot_20260526-002605~2.jpg" alt="">
+    
+    <div style="text-align: center; border-bottom: 2px solid  #FF9205;">
+      <h4>Qual é o nome do aplicativo para rodar o código de HTML e CSS no celular</h4>
+    <video src="/Sobre Spock editor de código de Simulação de Vs.code.mp4" height="400px" poster="/IMG-20260617-WA0004.jpg" width="80%" preload="none" autoplay="autoplay" controls></video>
+    </div> <br><br>
     <br><br><br>
+      <p style="color: red; text-align: center;">para criar seu Blogger é fácil, é seguro quando seguires esses passos a passo. Aprenda já de forma gratuita.</p>
+
+    <img width="100%" src="/Screenshot_20260526-002605~2.jpg" alt="">
+    <br><br><br><br><br><br><br>
+    
+    
     
     <!-- declaração dos vídeos com uma mensagem-->
     
@@ -207,16 +312,47 @@ p{
            
       <source src="/VID-20260602-WA0009.mp4" type="">
     </video>
-    <div class="par">
+    <div id="texto" class="par">
            <p>Amizade quando é verdadeiro nós projemos os nossos amigos e ajudamos nós momento difícil, e nos bons momentos, eu acredito que vamos nos ajudar mutuamente.<br><br> Obrigada e não esqueça de partilhar e visitar sempre a minha página.</p>
+             <img src="/IMG-20260617-WA0001.jpg" width="100%" alt="" />
+             
+            <p style="color: red;">Programação de serviços de hospedagem de linguagem de marcação e linguagem de programação.</p>
+            
+             <img src="/Screenshot_20260617-064427~4.jpg" width="100%" height="200px" alt="" />
+             <h2 style=" color: red;">Obrigado pela preferência do serviço não irá se arrepender do serviço do Belson software, escolha nessa barra fixada na tela o serviço 👈</h2>
+    <!--aqui no leia tem um styck grudado na tela do topo-->
+    <div class="leia">
+      
+      <p style="background: blue;">belsonquizomba6@gmail.com</p>
+      
+      <p id="too"></p>
+      
+      <a href="informe.html" target="_blank">ajuda</a>
+      <a href="login.html">criar conta</a>
+      
+      <button onclick="faz()" type="submit">Botão</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button onclick="preto()" type="submit">fundo preto</button>
+    </div><br><br><br><br><br>
     </div>
-    
+    <h1 style="color: red; text-align: center">Eventos do site</h1>
+    <div class="eva">
+      <h4 class="dior">Mister Dior Kudurista<br><br><small>Da Malta pesada</small><br>Download MP3</h4>
+        
+     <img id="img" src="/1782553335027.PNG" width="50%" height="100px" alt="">
+    <div id="leva1">
+    <p id="leva1">⬇️</p>
+    </div>
+    <div id="leva">
+      <audio id="leva" controls src="/_Mister_Dior_&_Silvo_Andrade_Chorar_o_nené_prod_by_Mt_Produções.mp3"></audio>
+    </div>
+    </div><br><br><br><br><br><br>
+
    </div>
   </div>
    </div>
   </div>
   
-  
+
   <!--simulação dos links em forma do aplicativo em tipo musica, vídeo, configurar, -->
  <div id="cor">
    
@@ -226,27 +362,47 @@ p{
   
   
   <div class="navegador">
-    <a id="foto1" href="audio.html"><img height="60px" src="/1781200708512.PNG" style="border-radius: 60px;" alt=""><br>musica</a>
+    <a class="foto1" href="audio.html"><img height="60px" src="/1781200708512.PNG" style="border-radius: 60px;" alt=""><br>musica</a>
   </div>
       
       
   <div class="navegador1">
-    <a id="foto2" href="apk.html">&nbsp; <img height="60px" src="/1781362746661.PNG" style="border-radius: 60px;" alt=""><br>Acessório</a>
+    <a class="foto2" href="apk.html">&nbsp; <img height="60px" src="/1781362746661.PNG" style="border-radius: 60px;" alt=""><br>Acessório</a>
   </div>
   
   
    <div class="navegador2">
-    <a id="foto3" href="codigo.html"> <img height="60px" src="/1781210358164.PNG" style="border-radius: 60px;" alt=""><br>Algoritmo</a>
+    <a class="foto3" href="codigo.html"> <img height="60px" src="/1781210358164.PNG" style="border-radius: 60px;" alt=""><br>Algoritmo</a>
   </div>
   
   
-   <div class="navegador3">
-    <a id="foto4" href="video.html"> <img height="60px" src="/1781201223802.PNG" style="border-radius: 60px;" alt=""><br>Vídeos</a>
+   <div  class="navegador3">
+    <a class="foto4" href="video.html"> <img height="60px" src="/1781201223802.PNG" style="border-radius: 60px;" alt=""><br>Vídeos</a>
   </div>
   
   </div>
   </div>
-  <script src="input.js"></script>
+  
+  <script>
+    
+    function preto(){
+  alert("desativado algumas funções do site")
+  let div = document.getElementById("texto");
+  
+  div.style="background: black; color: white;"
+  
+  let belson = document.getElementById("topo");
+  
+  belson.style="display: none;"
+  
+   setTimeout(function(){
+   document.getElementById("too").innerHTML="Ola Mundo";
+   
+   
+ },3000)
+  
+}
+  </script>
   
     
 </body>
