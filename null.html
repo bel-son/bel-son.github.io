@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="authe" content="Belson Quizomba Cateco">
+  <mata name="keywords" content="leia. Belson Quizomba, Bibiana mamãe">
+  <mata name="description" content="Este site foi criado para poder fazer postagens do meu trabalho de programação, alem de saber linguaguem de marcação também sei programar em outras linguagens, por isso pretendo contribuir com meu trabalho, para que a internet seja um lugar sólido com muitos acolhimento, para que os usuários que tem dificultado em programação podem vir até ao meu domínio de programação web">  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+  <title></title>
+  
+  <style>
+    body{
+  text-align: center;
+  background: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+h1{
+  background: black;
+  box-shadow: 1px 1px 4px 4px white;
+  text-shadow: 2px 4px 2px red;
+}
+
+.topo input{
+  border: 2px solid red;
+  margin-left: 30px;
+  display: block;
+  background: black;
+  color: white;
+  margin-bottom: 50px;
+  padding: 10px 5px 10px 5px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.topo button{
+  padding: 0px 50px 0px 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  border-radius: 12px;
+  border: 2px solid darkred;
+}
+.choco button{
+  position: fixed;
+  bottom: 2%;
+  left: 0%;
+}
+a{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background: white;
+  text-decoration: none;
+  color: red;
+  border-radius: 10px;
+}
+  </style>
+  
+  
+</head>
+<body>
+   
+   <h1>Confirma para continuar a criar sua conta.</h1>
+   
+   <p>Para continuar iniciar sessão, faz ser testado com as perguntas, sobre informações do site Acertar as seguintes questões.</p>
+   <p id="chuva">Leia atentamente as seguintes questões. Clique em testar</p>
+   
+   
+   <p id="texto"></p>
+   
+   <h4 id="corpo">Visualizar 👁️</h4>
+   <h3 id="loco"></h3>
+  <div class="topo">
+  
+     <input type="text" id="fogo" value="" placeholder="Digite A ou B se for a correta" required>
+     <button id="leia" onclick="faz()" type="submit"><h2 id="olha">Continuar</h2></button><br><br><br>
+     <button onclick="ligar()" class="choco" type="submit"><h2 id="ligar"></h2></button>
+     
+   
+  </div>
+  
+ <a href="null.html">Restaurar</a>
+   
+   <script>
+     
+     function faz(){
+  document.getElementById("texto").innerHTML="10";
+  document.getElementById("ligar").innerHTML="Testar";
+  
+  var lote = document.getElementById("chuva");
+  lote.style="color: red;"
+  
+  document.getElementById("chuva").innerHTML="Digite o nome completo do primeiro presidente de Angola <br> Sem erra nenhuma sílaba"
+
+  
+  
+  belson = setInterval(function(){
+    var conta = document.getElementById("texto").innerHTML;
+    var soma = parseInt(conta) - 1;
+    
+    document.getElementById("texto").innerHTML= soma;
+    
+    
+    document.getElementById("corpo").innerHTML="Quem foi primeiro presidente de Angola ?";
+    
+
+    var  leia = document.getElementById("corpo");
+    leia.style="color: red; background: white; padding: 20px 30px 20px 30px;"
+    
+    var terra = document.getElementById("fogo").value;
+    
+    
+    if (soma === 0 && terra == "") {
+      parar()
+      lote.style="display:none;"
+      document.getElementById("corpo").innerHTML="";
+      document.getElementById("texto").innerHTML="Tempo esgotado <br> Restaure para continuar";
+      terra.style="display: none;"
+      var leia = document.getElementById("leia");
+        leia.style="display: none;";
+      
+    } 
+    
+    document.getElementById("olha").innerHTML=soma;
+    
+  },1000)
+  
+}
+  
+  function ligar(){
+    var bela = document.getElementById("fogo").value;
+    
+    if (bela == "Antônio Augustinho neto") {
+      document.getElementById("corpo").innerHTML="";
+      parar()
+      document.getElementById("loco").innerHTML="Resposta certa";
+    } else {
+      document.getElementById("corpo").innerHTML="";
+      parar()
+      document.getElementById("loco").innerHTML="Errado";
+    }
+    
+  }
+
+function parar(){
+   clearInterval(belson)
+}
+     
+   </script>
+   
+</body>
+</html>
