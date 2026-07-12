@@ -12,4 +12,4 @@
 ---
 
 ### Sobre programador 
-desenvolvolve este site para ajudar os pessoal que esta aflição de apreender a programar, ensinar linguagem de alto nivel para aplicação de empresas grades e microempresa.
+Belson Quizomba Cateco nato de Angola, desenvolve este site para disponibilizar conteúdo de de programação web, e também algumas dicas sobre Algoritmo em pseudocódigo.
