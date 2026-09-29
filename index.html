@@ -7,522 +7,219 @@
   <meta name="authe" content="Belson Quizomba Cateco">
   <mata name="keywords" content="leia. Belson Quizomba, Bibiana mamãe">
   <mata name="description" content="Este site foi criado para poder fazer postagens do meu trabalho de programação, alem de saber linguaguem de marcação também sei programar em outras linguagens, por isso pretendo contribuir com meu trabalho, para que a internet seja um lugar sólido com muitos acolhimento, para que os usuários que tem dificultado em programação podem vir até ao meu domínio de programação web">  
-  <link rel="icon" sizes="32x32"  href="/1789041829109.PNG">
-
-
-  <title>Belson software</title>
   
+    
+    <title>Belson software</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0066ff">
+  <link rel="apple-touch-icon" href="icon-512.png">
   
   <style>
-  #belson{
-    position: sticky;
-    top: 0%;
-    background: black;
-    color: white;
-  }
-  body{
+    body{
+    background: #F2F2F2;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    background: black;
   }
-  #fone{
-    margin: auto auto;
-    width: 60%;
-    background: black;
-    color: white;
-    border: 1px red solid;
-    border-radius: 30px;
-    padding: 0px 10px 0px 10px;
+  #terror small{
+    font-size: 9px;
+    font-weight: bold;
   }
- #comeco{
-  display: none;
-  text-align: center;
-  background-image: linear-gradient(10deg,black,white,white);
-  padding: 0px 0px 60px 0px;
-}
-#comeco button{
-  border: solid 2px #6A6C85;
-  margin-top: 40px;
-  background: #E5E5ED;
-  font-family: 'Times New Roman', Times, serif;
-  width: 80%;
-  height: 40px;
-  border-radius: 30px;
-}
-#jogo{
-  display: inline-block;
-  background: #E9E9F0;
-  position: fixed;
-  bottom: 0%;
-  right: 0%;
-  left: 0%;
-  height: 53px;
-}
-#jogo a img{
-  border: solid 1px red;
-  border-radius: 20px;
-}
-#p1{
-  display: none;
-  border: 2px solid #B8B8B8;
-  margin: auto auto;
-  width: 60%;
-  background: #E4E4E4;
-  border-radius: 30px;
-}
-#p2{
-  display: none;
-  border: 2px solid #B8B8B8;
-  margin: auto auto;
-  width: 80%;
-  background: #E4E4E4;
-  border-radius: 30px;
-}
-#p3{
-  display: none;
-  border: 2px solid #B8B8B8;
-  margin: auto auto;
-  width: 80%;
-  background: #E4E4E4;
-  border-radius: 30px;
-}
-#p4{
-  display: none;
-  border: 2px solid #B8B8B8;
-  margin: auto auto;
-  width: 70%;
-  background: #E4E4E4;
-  border-radius: 30px;
-}
-#tela{
-  background: #09190D;
-  width: 70%;
-  height: 40px;
-  margin-bottom: 70px;
-  color: #FF0000;
-  font-family: 'Times New Roman', Times, serif;
-
-  
-}
-#igual{
-  width: 15%;
-  height: 38px;
-  font-size: 40px;
-  border: none;
-  background: #F7F7F9;
-}
-.botao{
-  width: 23%;
-  height: 50px;
-  font-size: 18px;
-  background: #12172D;
-  color: white;
-  border: none;
-  padding-left: 10px;
-}
-#ligar{
-  width: 20%;
-  position: fixed;
-  bottom: 15%;
-  left: 2%;
-  border: none;
+  button{
   background: none;
+  border: none;
   font-family: 'Times New Roman', Times, serif;
 }
-
-#Exit{
-  background: #0F123A;
-  padding: 16px 14px 16px 14px;
+ #menu{
+  display: flex;
   position: fixed;
-  bottom: 0%;
-  left: 2%;
+  bottom: 3%;
+  left: 30%;
+  background: #EAEAEA;
+  width: 40%;
+   border-radius: 100px;
+}
+#topo{
+  background: #868896;
+}
+#paginaMusica{
   display: none;
-  border: 1px solid red;
-  border-radius: 20px;
 }
-iframe{
-  border-radius: 30px;
-  width: 80%;
+#paginaJogo{
+  display: none;
 }
-#deus{
-  text-align: center;
-  background-image: url("/lv_0_20260911144423.jpg");
-  background-size: cover;
-  height: 670px;
+#paginaGuia{
+  display: none;
 }
-#deus h1{
+  #paginaTopo{
+}
+.topo{
+  background: black;
+  height: 50px;
   position: fixed;
-  bottom: 5%;
-  left: 40%;
-  color: red;
-  background: ;
-  border-radius: 30px;
-  padding: 5px 5px 5px 5px;
-  text-shadow: 10px 10px 10px black;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  border-bottom: 1px solid yellow;
 }
-#preso1{
-  display: none;
+#betaA{
+ width: 20%;
+ position: fixed;
+ top: 0%;
+ right: 0%;
 }
-#preso2{
-  display: none;
-}
-#preso3{
-  display: none;
-}
-#preso4{
-  display: none;
-}
-#preso5{
-  display: none;
-}
-#preso6{
-  display: none;
-}
-#preso7{
-  display: none;
-}
-#preso8{
-  display: none;
-}
-#preso9{
-  display: none;
-}
-#preso10{
-  display: none;
-}
-progress{
+#beta{
   position: fixed;
-  bottom: 1%;
-  left: 5%;
-  width: 90%;
-  height: 30px;
+  top: 0%;
+  left: 0%;
+  width: 10%;
   background: white;
+  border-radius: 140px;
 }
-p{
-  padding: 5px 5px 5px 5px;
+.definicao{
+  margin: 47px 0px 0px 0px;
+  background: black;
 }
-#rapido{
+#jota{
+  float: top;
+}
+.imagen{
+  margin: 0px 0px 60px 0px;
+  border: 1px solid red;
+  background: #EEEEEE;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px black;
+}
+.imagen p{
+  margin-left: 10px;
+}
+.aula{
+  border-radius: 3px;
+  box-shadow: 0px 0px 12px white;
+  font-size: 14px;
+}
+
+#inicio{
+  margin: 30px 0px 0px 0px;
+  width: 29%;
+}
+#Belson h2{
+  text-align: center;
+  color: #DFE0EB;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  background-image: linear-Gradient(100deg,black, red);
+  margin: 0px 0px 30px 0px;
+}
+.image{
+  border-radius: 50px;
+  border: 1px solid black;
+  position: fixed;
+  top: 30%;
+  left: 34%;
+}
+.imageP{
+  position: fixed;
+  top: 45%;
+  left: 36%;
+}
+#principal{
   display: none;
+}
+#wy{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  display: none;
+  z-index: 0;
 }
   </style>
+  
 </head>
 <body>
+      <div id="menu">
+      <div id="topo">
+         <button onclick="topo()"  type="submit"><img width="40%"  src="/belson.PNG" alt=""><br><small>início</small></button>
+      </div>
+      <div id="jogo">
+        <button onclick="jogo()"  type="submit"><img width="40%"  src="/jogo.PNG" alt=""><br><small>jogo</small></button>
+      </div>
+
+    </div>
   
-    <button id="ligar"><img src="/1788439684716.PNG" width="100%" alt=""><br>Câmera</button>
-    <video id="camera" width="100%" height="700px" autoplay>
-      <a href="index.html">❌</a>
-    </video>
-  
-  <article id="deus">
-    
-    <h2 style="color: white; border: 2px solid red; border-radius: 20px;">Belson software</h2>
-    <progress id="preso" value="1" max="100"></progress>
-    
-    <progress id="preso1" value="10" max="100"></progress>
-    <progress id="preso2" value="20" max="100"></progress>
-    <progress id="preso3" value="30" max="100"></progress>
-    <progress id="preso4" value="40" max="100"></progress>
-    <progress id="preso5" value="50" max="100"></progress>
-    <progress id="preso6" value="60" max="100"></progress>
-    <progress id="preso7" value="70" max="100"></progress>
-    <progress id="preso8" value="80" max="100"></progress>
-    <progress id="preso9" value="90" max="100"></progress>
-    <progress id="preso10" value="100" max="100"></progress>
-    
-    
-    <h1 id="conta">0</h1>
-    
-    <div>
-      <img id="lento" src="/lento.gif" width="30%" alt="" />
-      <img id="rapido" src="/rápido.gif" width="30%" alt="" />
-      <h2 style="color: white;" id="sms">Loading...</h2>
-    </div>
-
-  </article>
-  
-  <article id="comeco">
-    
-    <div id="preto">
-      <h2>Imagino está noite.</h2>
-      <img src="/4aa208c6332141fc9b0ceeb917ea5251.gif" width="100%" alt="" />
-    </div>
-    
-    <div id="belson">
-      <h2>Belson software</h2>
-   </div>
-
-    <div id="fone">
-      <h3>Aprenda criar site com celular</h3>
-      <img src="/IMG-20260617-WA0004.jpg" height="100px">
-      <p>Para poderes ser programador web com celular é muito simples para aqueles pessoal que o interesse de ser desenvolvidor da página web. <br>Primeira coisa antes de tudo deves ter o domínio (conhecimento) sobre há linguaguem de marcação (<b style="color: red;">HTML</b>). O quê é uma linguagem de marcação HTML? <br>Uma linguagem de marcação de marcação HTML (Hyper text markup Languangue ou "linguagem de marcação de hipertexto") E o alcance fundamental da internet. não é uma linguagem de programação mais sim uma linguagem de marcação que organiza a estrutura o conteúdo do sites como o texto e imagens, vídeos, audios, formulário. essa é uma ferramenta fundamental da internet pôr que grandes indústrias possuem o endereço de um site para poder ser mais alcançado pelos clientes apartir de qualquer de lugar. </p>
-      <p>Para poder aprender é necessário que tenhamos o <b style="color: red;">Editor Spock</b> instalado no celular esses aplicativos esta disponível na PlayStore. <br>Segue meu vídeo de tutorial de aula de HTML no editor Spock totalmente grátis sem nenhum custo Adicionar.</p>
-   </div>
-
-      <h2 style="font-size: 18px; margin-top: 10%; color: red;">Dica do programador</h2>
-      <p style="color: red;">Este site foi desenvolvido pôr programador web:<b><u>Belson Quizomba Cateco</u></b>. Criei está página web para poder mostrar o quê só capaz de fazer com as linguaguem de marcação (HTML & CSS), também estou preparado para poder servir os usuários que pretende ter um página web, Pois criei esta página para poder resolver os problemas de conteúdo sobre a web. <a href="informe.html" style="">mais informações do site</a></p> <br><br>
-     
-      <h3 style="background:  #FF9205;">Serviços do site</h3>
-
-      <p>Hospedagem de serviços de atendimento dos clientes. <br>Este site está disponível conteúdo de formatos em mp4, disponível vídeo de animação de entretenimento, e para aqueles que querem saber como desenvolver (apreender) uma página web é só inscrever-se neste site. Audio em MP3 de cantores talentoso disponível aqui no <u>Belson Sevings</u>.</p>
-      <p><q style="color: red;">Ola eu sou Belson Quizomba Neste site eu, Criei Um jogo que tem pergunta e tu acertar o grupo verdadeiro e acertas a resposta.</q> Conheço Angola</p>
-    <div id="p1">
-        <h4 style="color: red;">Resposta: </h4>
-        <p>Sim neste site tem jogo.</p>
-        <p>Neste site tem um específico que foi desenvolvido para o site. Este jogo foi desenvolvido para fazer pergunta e tu aceretas a pergunta correta. Assim que tú dominares o jogos podes passar para uma complexidade de jogo lógico e podes ganhar prêmios. Se tiveres dúvida podes seguir o site este site em cada 3 dias tem sempre novidades.</p>
-        
-          <button id="limpar" type="submit">❌</button>
-    </div>
-    
-       <button onclick="todoP2()" type="submit">Como posso ter acesso ao jogo?</button>
-          
-    <div id="p2">
-      <p>Para ter acesso ao jogo tens que passar por preenchimento de um formulário. O preenchimento do formulário deve ser há manual.</p>
-      <img width="70%" src="/Screenshot_20260801-113545.jpg" alt="">
-      <p>Após ao terminar de encher o formulário click no botão em baixo em enviar formulário. O formulário sera enviado e abrirá uma nova tela veja.</p>
-      <img width="40%" src="/Screenshot_20260801-113617.jpg" alt="">
-      <h4 class="">Confirma</h4>
-      <img width="70%" src="/Screenshot_20260801-113622.jpg" alt="">
-      <p>E só tu apertar no botão <b style="color: green;">Sim</b>.</p>
-      <p>Dai irás cair na tela do jogo diretamente.</p>
-      
-      <h6>Atenção: No preenchimento do preenchimento do formulário podes podes por qualquer nome de usuário para utilizar no jogo. senha é de tua preferência.</h6>
-      
-    </div>
-          
-       <button onclick="todoP3()" type="submit">Entrar em contato com Proprietário do site?</button>
-    
-    <div id="p3">
-      <p>Endereço:
-        <address>
-          belsonquizomba6@gmail.com <br>
-          956102043
-        </address><br><br>
-        <a target="_blank" href="https://wa.link/n222s6">Linha de atendimento do WhatsApp <img width="30%" src="/images (2).jpeg" alt=""></a>
-      </p>
-      
-    </div>
-    
-       <button onclick="todoP4()" type="submit">Quero jogar. O jogo que criaste!</button>
+    <article id="paginaTopo">
               
-    <div id="p4">
-      <p>Para ter Acesso a plataforma do jogo ligar este link.</p>
-      <h5>Click neste link de baixo</h5>
-      <a href="#">Jogar diretamente no site jogo da verdade de Angola</a>
-      
-      
-    </div>
-    
-      <button onclick="todoP4()" type="submit">Funcionamento do jogo</button>
-
-    <div id="p4">
-       <p>Este jogo de um sistema de remuneração de cada usuário do jogo? <br>Está disponível lucro de utentes que segue a minha hospedagem, Se tu acertar todas as questões tens direito a uma remuneração de <b>1000.</b> <b style="bbackground: red;">Kz</b></p>
-    </div>
-    
-      <div style="margin: 100px 0px 0px 0px; padding: 0px 0px 20px 0px;">
-          <img width="50%" src="/Screenshot_20260801-113642.jpg" alt="">
+        <div class="definicao">
+          <h2 style="color: red; text-align: center;">Belson Softwere</h2>
+        </div>
+      <div class="topo">
+         <button id="betaA" onclick="novo()" type="submit"><img src="/1789543122543.PNG" width="70%" alt=""></button>
+      <div class="topoA">
+         <button id="beta" onclick="configurar()" type="submit"><img  src="/Belson.gif" width="100%" alt=""></button>
+          
       </div>
-      <p>Uma ilustração de Calculadora <br>App click neste botão</p>
-      
-      <div style="background: black; box-shadow: 0px 0px 20px #2D2D2C; height: 550px; border-radius: 30px;" id="Calculo">
-        <form action="" name="calculo" method="get" accept-charset="utf-8">
-          <h2 style="color: blue;">Calculadora</h2>
-          <input style="color: red;" type="button" onclick="tela.value = eval(tela.value)" name="igual" id="igual" value="=" />
-          <input class="botao" type="text" id="tela" disabled><br>
-          <input  class="botao" type="button" onclick="Limpar()" name="igual" id="" value="C" /><br>
-          
-          <input class="botao"  type="button" onclick="Calcular(b1.value)" name="b1" id="" value="1" />
-          <input class="botao"  type="button" onclick="Calcular(b2.value)" name="b2" id="" value="2" />
-          <input class="botao"  type="button" onclick="Calcular(b3.value)" name="b3" id="" value="3" /><br>
-          <input class="botao"  type="button" onclick="Calcular(b4.value)" name="b4" id="" value="4" />
-          <input class="botao"  type="button" onclick="Calcular(b5.value)" name="b5" id="" value="5" />
-          <input class="botao"  type="button" onclick="Calcular(b6.value)" name="b6" id="" value="6" /><br>
-          <input class="botao"  type="button" onclick="Calcular(b7.value)" name="b7" id="" value="7" />
-          <input  class="botao" type="button" onclick="Calcular(b8.value)" name="b8" id="" value="8" />
-          <input class="botao"  type="button" onclick="Calcular(b9.value)" name="b9" id="" value="9" /><br>
-          <input class="botao"  type="button" onclick="Calcular(b0.value)" name="b0" id="" value="0" />
-          <input class="botao" type="button" onclick="Calcular(b00.value)" name="b00" id="" value="00" /><br><br><br>
-          
-          <input  class="botao" type="button" onclick="Calcular(mais.value)" name="mais" id="" value="+" />
-          <input  class="botao" type="button" onclick="Calcular(meno.value)" name="meno" id="" value="-" />
-          <input  class="botao" type="button" onclick="Calcular(soma.value)" name="soma" id="" value="*" />
-          <input  class="botao" type="button" onclick="Calcular(div.value)" name="div" id="" value="/" />
-
-        </form>
+      </div>
+        <div class="imagen">
+            <h3 style="text-align: center;">Perfil do desenvolvedor Web</h3>
+            <p><b>Nome: </b>Belson Quizomba Cateco</p>
+            <img id="jota" src="/Belson01 (1).gif" width="100%" alt="">
+            
+            <h3 style="text-align: center;">Redes sociais</h3>
+           <p ><img style="border-radius: 50px;" src="/Belson01.jpg" width="10%" alt=""> Programação Web <a  href="https://www.facebook.com/sharer/sharer.php?u=Programação%20Web"><small>Seguir no Facebok</small></a></p>
+           <p><img style="border-radius: 50px;" src="/1783538652188.jpg" width="10%"  alt=""> Bel Son <a href="https://wa.link/n222s6"><small>Fala no WhatsApp</small></a></p>
+           <p><img style="border-radius: 50px;" src="/Screenshot_20260916-092731.jpg" width="10%"  alt=""> Bel Son <a href=""><small>segui no tik tok</small></a></p>
+           <p><img style="border-radius: 50px;" src="/Screenshot_20260916-092840.jpg" width="10%"  alt=""> Bel Son <a href=""><small>segui no Instagram</small></a></p>
         
-
+        </div>
+       <div style="margin: 0px 0px 90px 0px;">
+        <h3 style="text-align: center;">Apreenda programar sem IA</h3>
+        <p style="text-indent: 10px;">A página <b style="color: red;">https://bel-son.github.io</b> diz site com disponibilidade de vídeo aula de programação sem <b style="color: red;">Inteligência Artificial</b> Assiste todos os meus vídeos que explico como programar, Ter interação com a simulação de linguagem de programação em visual.G.</p>
+        
+        <p>Após assistir explicação de como programar em visual.G daí tu serás Apto para poder programar de verdade em Código <b style="color: red;">C</b>. Apreenda Linguagem de programação Sem problemas.</p>
+        <b>Pôr quê aprender programar?</b>
+        <p style="font-size: 13px;">Para criar Software de sistema e aplicação.<br>Para poder resolver tarefas.</p>
+        <p style="font-size: 12px;"><b>O que é Visual.G ? <br></b>Visual.G não é uma linguagem de programação mas sim ele simula uma linguagem de programação. serve para dar aos iniciantes noção de como programar em português, os códigos são escritos em Português.</p>
+        <b>Veja os comando que serão inseridos no visual.G</b>
+        <h4>Nota:</h4>
+        <p>Este site está disponível vários vídeos de programação.</p>
+        <p style="color: blue;">Programação web e linguagem de programação em C</p>
+        <p>Crie seu próprio algoritmo sem IA.</p>
+        
       </div>
-
-    <div id="jogo">
-      <a target="_blank" href="#"><img src="/1788458625971.PNG" width="15%" alt=""></a>
+    </article>
+    
+        <article id="paginaJogo">
+      
+     <div id="principal">
+       <img class="image" src="/1789636095471.PNG" width="30%" alt="">
+      <img class="imageP" src="/b0083b0ede264550a1545f9a39e975b5.gif" width="26%" alt="">
     </div>
-  
-  
-    <div id="Exit">
-      <a target="_blank" style="text-decoration: none; font-weight: bold; color: white; text-shadow: 0px 0px 50px white;" href="index.html">Sair</a>
+      
+      <button onclick="menu()" id="menutopo" type="submit"><img width="100%" src="/Picsart_26-09-21_16-02-21-149.png" alt=""></button>
+      <div id="">
+        
+      </div>
+    <div id="wy">
+      <img src="/fundo-principal0.PNG" width="100%" height="270" alt="">
     </div>
-    <div style="padding: 10px 0px 10px 0px; color: white; background: #0D1029;">
-      <p><b>Belson software</b> Site oficial <sub><a style="text-decoration: none;" href="../Portuga_Monstrinho">https://bel-son.github.io</a></sub> neste site foi postado um jogo com uma parecia de Sou Angolano.</p>
-
-    </div> 
-  </article>
-  
-
+      
+    <div id="padre">
+     <div id="Belson">
+       <h2>Belson App</h2>
+      <div id="terror">
+        <br><br>
+       <h3 style="text-align: center;">Brevemente estará disponível Jogo com tutoriais de Angola.</h3>
+      <p>Continua a seguir minha página. <br /> https://bel-son.github.io</p>
+      </div>
+    </div>
+    
+    </article>
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
   <script>
-    let p = document.getElementById("preso")
-    let p1 = document.getElementById("preso1")
-    let p2 = document.getElementById("preso2")
-    let p3 = document.getElementById("preso3")
-    let p4 = document.getElementById("preso4")
-    let p5 = document.getElementById("preso5")
-    let p6 = document.getElementById("preso6")
-    let p7 = document.getElementById("preso7")
-    let p8 = document.getElementById("preso8")
-    let p9 = document.getElementById("preso9")
-    let p10 = document.getElementById("preso10")
-    let lento = document.getElementById("lento")
-    let rapido = document.getElementById("rapido")
-    let sms = document.getElementById("sms")
-  
-  
-  
-  belson = setInterval(function(){
-    let cont = document.getElementById("conta").innerHTML;
-    let soma = parseInt(cont)+1;
-    document.getElementById("conta").innerHTML=soma+" %";
-    
-    
-    
-  if (soma == 10){
-    p1.style="display: inline-block;"
-    p.style="display: none;"
-    sms.innerHTML="Loading."
-  }  
-    if (soma == 20){
-    p2.style="display: inline-block;"
-    p1.style="display: none;"
-    sms.innerHTML="Loading.."
-  }  
-  if (soma == 30){
-    p3.style="display: inline-block;"
-    p2.style="display: none;"
-    sms.innerHTML="Loading..."
-  }  
-    if (soma == 40){
-    p4.style="display: inline-block;"
-    p3.style="display: none;"
-    sms.innerHTML="Loading."
-  }  
-    if (soma == 50){
-    p5.style="display: inline-block;"
-    p4.style="display: none;"
-    sms.innerHTML="Loading.."
-  }  
-    if (soma == 60){
-    p6.style="display: inline-block;"
-    p5.style="display: none;"
-    rapido.style="display: inline-block;"
-    lento.style="display: none;"
-    sms.innerHTML="Loading..."
-  }  
-    if (soma == 70){
-    p7.style="display: inline-block;"
-    p6.style="display: none;"
-    sms.innerHTML="Loading."
-  }  
-    if (soma == 80){
-    p8.style="display: inline-block;"
-    p7.style="display: none;"
-    sms.innerHTML="Loading.."
-  }  
-  if (soma == 90){
-    p9.style="display: inline-block;"
-    p8.style="display: none;"
-    sms.innerHTML="Loading..."
-  }  
-  if (soma == 100){
-    p10.style="display: inline-block;"
-    p9.style="display: none;"
-    sms.innerHTML="Aguarde por favor !"
-    sms.style="color: #1A1437;"
-
- clearInterval(belson)
-    setTimeout(function(){
-      
-      let deus = document.getElementById("deus")
-      let olha = document.getElementById("comeco")
-  
-       deus.style="display: none;"
-       olha.style="display: inline-block;"
-  },1100)
-}
-      
-},50)
-  function mostrar(){
-  let mostar = document.getElementById("Calculo")
-  
-  mostrar.style="display: inline-block;"
-}
-
-
-function todoP1(){
-  let p1 = document.getElementById("p1")
-  p1.style="display: inline-block;"
-  
-}
-
-function todoP2(){
-  let p1 = document.getElementById("p2")
-  p1.style="display: inline-block;"
-  
-}
-
-function todoP3(){
-  let p1 = document.getElementById("p3")
-  p1.style="display: inline-block;"
-}
-
-function todoP4(){
-  let p4 = document.getElementById("p4")
-  p4.style="display: inline-block;"
-
-}
-function Limpar(){
-    location.reload()
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
   }
-function Calcular(num){
-  calculo.tela.value = calculo.tela.value + num
-}
-const video = document.querySelector("#camera");
-    const btn = document.querySelector("#ligar");
-    const topo = document.querySelector("#comeco");
-    const saida = document.querySelector("#Exit");
-    
-    video.style="display: none;"
-    
-    btn.addEventListener("click", () => {
-      video.style="display: inline-block;"
-      topo.style="display: none;"
-      btn.style="display: none;"
-      document.body.style="position: fixed; width: 100%; background: black;"
-      
-      setTimeout(function(){
-        saida.style="display: inline-block;"
-      
-      },4000)
-      
-      navigator.mediaDevices.getUserMedia({ video: true, audio: true })
-        .then(stream => {
-          
-          video.srcObject = stream; // Mostra o vídeo
-          btn.textContent = "Câmera Ligada"; // Muda o botão
-        })
-        .catch(erro => {
-          alert("Não consegui acessar a câmera: " + erro);
-        });
-    });
-    
-    
-  </script>
-  
+</script>
 </body>
     </html>
