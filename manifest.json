@@ -1,0 +1,9 @@
+{
+  "name": "Belson software",
+  "short_name": "Belson",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0066ff",
+  "theme_color": "#0066ff",
+  "icons": [{ "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }]
+}
