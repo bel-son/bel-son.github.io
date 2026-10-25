@@ -222,6 +222,41 @@
   }
 </script>
 
+<!-- POPUP AUTOMÁTICO DE INSTALAÇÃO -->
+<div id="installPopup" style="display:none; position:fixed; bottom:0; left:0; right:0; background:#111; color:#fff; padding:20px; z-index:9999; text-align:center; border-top:3px solid #00ff88;">
+  <p style="margin:0 0 10px 0; font-size:16px; font-weight:bold;">📲 Instala o App Belson Software</p>
+  <p style="margin:0 0 15px 0; font-size:13px;">Acesso rápido e funciona sem internet!</p>
+  <button id="btnInstall" style="background:#00ff88; color:#000; border:none; padding:12px 25px; border-radius:8px; font-weight:bold; font-size:15px; width:80%;">INSTALAR AGORA</button>
+  <button id="btnClose" style="background:transparent; color:#aaa; border:none; margin-top:10px; font-size:12px;">Depois</button>
+</div>
+
+<script>
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  // Mostra o popup automaticamente 2 segundos depois que entrar
+  setTimeout(() => {
+    document.getElementById('installPopup').style.display = 'block';
+  }, 2000);
+});
+
+document.getElementById('btnInstall').addEventListener('click', async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    console.log(outcome);
+    deferredPrompt = null;
+    document.getElementById('installPopup').style.display = 'none';
+  }
+});
+
+document.getElementById('btnClose').addEventListener('click', () => {
+  document.getElementById('installPopup').style.display = 'none';
+});
+</script>
+
+
 <script src="https://quge5.com/88/tag.min.js" data-zone="302084" async data-cfasync="false"></script>
 </body>
     </html>
