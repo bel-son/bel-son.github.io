@@ -1,19 +1,22 @@
 {
-  "name": "Belson Software",
-  "short_name": "Belson",
+  "name": "Belson Software.Conheço Angola.app",
+  "short_name": "Conheço Angola",
   "description": "funciona offline sem internet",
   "start_url": "./",
-  "display": "standalone",
-  "background_color": "black",
-  "theme_color": "#000000",
+  "display": "fullscreen",
+  "background_color": "red",
+  "theme_color": "black",
+  "orientation": "portrait",
+  "lang": "pt-ao",
+  "categories": ["education","game"],
   "icons": [
     {
-      "src": "icon-512.png",
+      "src": "icone-512.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-512.png",
+      "src": "icone-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
