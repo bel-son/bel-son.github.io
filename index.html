@@ -937,8 +937,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
   // Mostra o popup automaticamente 2 segundos depois que entrar
+  setTimeout(() => {
     document.getElementById('installPopup').style.display = 'block';
+  },10);
 });
+
 document.getElementById('btnInstall').addEventListener('click', async () => {
   if (deferredPrompt) {
     deferredPrompt.prompt();
@@ -948,10 +951,10 @@ document.getElementById('btnInstall').addEventListener('click', async () => {
     document.getElementById('installPopup').style.display = 'none';
   }
 });
+
 document.getElementById('btnClose').addEventListener('click', () => {
   document.getElementById('installPopup').style.display = 'none';
-}
-}
+});
 </script>
     
 </body>
