@@ -1,11 +1,10 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background: black;
-    background-image: url("/raw1-1789723549766.png");
+    background-image: url("/fundo_app.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px 100px 500px 0px;
-  }
+}
   #dix{
   position: fixed;
   top: 0%;
