@@ -98,12 +98,12 @@ let somaDosnumero;
     informe.style="display: none;"
     
    document.body.style="background: black;"
-   document.getElementById("texto").innerHTML="Qual foi o ano que segundo presidente de Angola assumiu o poder. qual foi o ano que reinicio o cargo de presidente."
+   document.getElementById("texto").innerHTML="Qual é a cidade mais bonita de Angola?."
    
-    saida1.innerHTML="2006 - 1900"
-     saida2.innerHTML="1979 - 2017"
-    saida3.innerHTML="1979 - 2019"
-    saida4.innerHTML="1975 - 1979"
+    saida1.innerHTML="Caxito"
+     saida2.innerHTML="Lobito"
+    saida3.innerHTML="Luanda"
+    saida4.innerHTML="Lubango"
     toque.play()
     
     let dix = document.getElementById("dix")
@@ -644,22 +644,12 @@ let semLimiteJ = document.getElementById("EstrelaJ")
     saida1.style="display: inherit;"
     
     setTimeout(function(){
-      R1.style="display: inline-block;"
-      R3.style="display: inline-block;"
-      R4.style="display: inline-block;"
-      R2.style="background: #080A1F;"
-      semLimite.style="display: none;"
+        segueA.style="display: inline-block;"
+        enviar.style="display: none;"
+        pontuEstrela.innerHTML=1;
+        semLimite.style="display: none;"
         semLimiteA.style="display: inline-block"
-      
-        document.getElementById("texto").innerHTML="Angola como se chama o nosso actual Presidente da República Angolana.";
-        saida1.innerHTML="Jonas Savimbi"
-        saida2.innerHTML="João Manuel Gonçalves Lourenço"
-        saida3.innerHTML="Agostinho neto"
-        saida4.innerHTML="José Eduardo dos Santos"
-    },5600)     
-    setTimeout(function(){
-        alert('você Não consegui acertar está resposta. você não conhece Angola? 🇦🇴');
-    },5400)
+    },5600)
     
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -733,22 +723,12 @@ setTimeout(function(){
     saida1.style="display: inherit;"
     
 setTimeout(function(){
-      R1.style="display: inline-block;"
-      R3.style="display: inline-block;"
-      R4.style="display: inline-block;"
-      R2.style="background: #080A1F;"
-      semLimite.style="display: none;"
+        segueA.style="display: inline-block;"
+        enviar.style="display: none;"
+        pontuEstrela.innerHTML=1;
+        semLimite.style="display: none;"
         semLimiteA.style="display: inline-block"
-      
-        document.getElementById("texto").innerHTML="<h4>Em África todos os países pertencem há um grupo chamado <b>ONU<b>. Escolha o significado desta Organização Africana<h4>";
-        saida1.innerHTML="União Europeia"
-        saida2.innerHTML="Organização das Nações Unidas"
-        saida3.innerHTML="Órgãos Nacional unidade de África"
-        saida4.innerHTML="Organização nacional unidos"
-    },5600)     
-    setTimeout(function(){
-        alert('Você Não consegui acertar está questão você não conhece Angola?');
-    },5400)
+    },5600)
 
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -782,22 +762,12 @@ function vamoA(){
     saida1.style="display: inherit;"
     
     setTimeout(function(){
-      R1.style="display: inline-block;"
-      R3.style="display: inline-block;"
-      R4.style="display: inline-block;"
-      R2.style="background: #080A1F;"
-    semLimite.style="display: none;"
+        segueA.style="display: inline-block;"
+        enviar.style="display: none;"
+        pontuEstrela.innerHTML=1;
+        semLimite.style="display: none;"
         semLimiteA.style="display: inline-block"
-      
-        document.getElementById("texto").innerHTML="Em Angola comemoram o 11 de novembro. como o dia muito especial para todos os angolanos?";
-        saida1.innerHTML="Dia do herói nacional"
-        saida2.innerHTML="O dia da independência nacional �"
-        saida3.innerHTML="Dia dos vivos "
-        saida4.innerHTML="Dia nascional das juventudes"
-    },5600)     
-    setTimeout(function(){
-        alert('Você Não consegui acertar está questão você não conhece Angola?');
-    },5400)
+    },5600)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
