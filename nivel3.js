@@ -1359,10 +1359,14 @@ setTimeout(function(){
         pontuEstrela.innerHTML=5;
         semLimiteD.style="display: none;"
         semLimiteE.style="display: inline-block"
-      
+ 
        },5600)
     
-  
+  setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
+
+
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
@@ -1406,7 +1410,11 @@ function vamoBD(){
         semLimiteE.style="display: inline-block"
        },5600)
     
-  
+  setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
+
+
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
@@ -1445,6 +1453,9 @@ setTimeout(function(){
         semLimiteD.style="display: none;"
         semLimiteE.style="display: inline-block"
        },5600)
+setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -1486,7 +1497,10 @@ setTimeout(function(){
         semLimiteE.style="display: inline-block"
        },5600)
     
-  
+  setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
+
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
