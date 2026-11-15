@@ -1,7 +1,7 @@
 {
   "name": "Conheço Angola_-_Aló_-_Belson_-_Quizomba_-_Cateco.app",
   "short_name": "Conheço Angola",
-  "description": "funciona offline sem internet",
+  "description": "Este site funciona offline sem internet",
   "start_url": "./",
   "display": "fullscreen",
   "background_color": "red",
