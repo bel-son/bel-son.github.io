@@ -1782,7 +1782,7 @@ function vamoBI(){
     
     setTimeout(function(){
         segueI.style="display: none;"
-        segueC.style="display: inline-block;"
+        segueJ.style="display: inline-block;"
            semLimiteI.style="display: none;"
         semLimiteJ.style="display: inline-block"
    },5600)
