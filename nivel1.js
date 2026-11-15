@@ -23,7 +23,7 @@ let matias = new Audio("/REDONE_Matias_Damasio___Amar_Angola_ANGOLAN_POP_MALE_KA
  let certa = new Audio("/Resposta cerra.mp3")
  let errado = new Audio("/Resposta errada.mp3")
  setTimeout(function(){
- hino.play()
+
  },3150)
 let numeroDigitado=0;
 let somaDosnumero;
