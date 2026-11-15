@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+  <style>
+  body{
+    background: black;
+  }
+  .imagen{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0px 0px 60px 0px;
+  border: 1px solid red;
+  background: #EEEEEE;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px white;
+}
+.imagen p{
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+   
+}
+  </style>
+  
+</head>
+<body>
+    <div class="imagen">
+        <h3 style="text-align: center;">Perfil do desenvolvedor Web</h3>
+         <p><b>Nome: </b>Belson Quizomba Cateco</p>
+         <img id="jota" src="/Belson01.gif" width="100%" alt="">
+            
+         <h3 style="text-align: center;">Redes sociais</h3>
+        <p ><img style="border-radius: 50px;" src="/Belson01.jpg" width="10%" alt=""> Programação Web <a  href="https://www.facebook.com/sharer/sharer.php?u=Programação%20Web"><small>Seguir no Facebok</small></a></p>
+        <p><img style="border-radius: 50px;" src="/1783538652188.jpg" width="10%"  alt=""> Bel Son <a href="https://wa.link/n222s6"><small>Fala no WhatsApp</small></a></p>
+    </div>
+</body>
+</html>
