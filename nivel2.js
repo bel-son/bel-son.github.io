@@ -2315,7 +2315,7 @@ function vamoBH(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      alert('Ola Sou Belson software Você erraste esta pergunta veja a tua pontuação, Clique no Next-2');
+      alert('Ola Sou Belson software Você erraste esta pergunta veja a tua pontuação, Clique no Next-03');
     },5440)
     
   
@@ -2358,7 +2358,7 @@ setTimeout(function(){
         pontuEstrela.innerHTML=11;
     },5600)
     setTimeout(function(){
-      alert('Ola Sou Belson software Você acertaste esta pergunta veja a tua pontuação, Clique no Next-2, para continuar');
+      alert('Ola Sou Belson software Você acertaste esta pergunta veja a tua pontuação, Clique no Next-03, para continuar');
     },5440)
   
 setTimeout(function(){
@@ -2403,7 +2403,7 @@ setTimeout(function(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      alert('Ola Sou Belson software Você erraste esta pergunta veja a tua pontuação, Clique no Next-2');
+      alert('Ola Sou Belson software Você erraste esta pergunta veja a tua pontuação, Clique no Next-03');
     },5440)
     
 setTimeout(function(){
