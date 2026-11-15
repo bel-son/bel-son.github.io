@@ -2237,7 +2237,7 @@ setTimeout(function(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      <script>(function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+     (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
     },5440)
   
 setTimeout(function(){
@@ -2284,7 +2284,7 @@ function vamoBH(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      <script>(function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+     (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
     },5440)
     
   
@@ -2327,7 +2327,7 @@ setTimeout(function(){
         pontuEstrela.innerHTML=11;
     },5600)
     setTimeout(function(){
-      <script>(function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+     (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
     },5440)
   
 setTimeout(function(){
@@ -2372,7 +2372,7 @@ setTimeout(function(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      <script>(function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+    (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
     },5440)
     
 setTimeout(function(){
