@@ -927,7 +927,7 @@ input{
     <script src="nivel1.js"></script>
     
 <!-- POPUP AUTOMÁTICO DE INSTALAÇÃO -->
-<div id="installPopup" style="display:none; position:fixed; top:0; left:0; right:0; background:#111; color:#fff; padding:20px; z-index:9999; text-align:center; border-top:3px solid #00ff88; width: 100%;">
+<div id="installPopup" style="display:none; position:fixed; bottom:0; left:0; right:0; background:#111; color:#fff; padding:20px; z-index:9999; text-align:center; border-top:3px solid #00ff88; width: 100%;">
   <p style="margin:0 0 10px 0; font-size:16px; font-weight:bold;">📲 Instala o App Belson Software</p>
   <p style="margin:0 0 15px 0; font-size:13px;">Acesso rápido e funciona sem internet!</p>
   <button id="btnInstall" style="background:#00ff88; color:#000; border:none; padding:12px 25px; border-radius:8px; font-weight:bold; font-size:15px; width:80%;">INSTALAR AGORA</button>
@@ -942,7 +942,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Mostra o popup automaticamente 2 segundos depois que entrar
   setTimeout(() => {
     document.getElementById('installPopup').style.display = 'block';
-  },10);
+  },500);
 });
 
 document.getElementById('btnInstall').addEventListener('click', async () => {
