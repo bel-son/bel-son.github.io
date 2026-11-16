@@ -1396,7 +1396,9 @@ setTimeout(function(){
      
   },5600)
     
-  
+  setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
@@ -1437,7 +1439,9 @@ function vamoBE(){
         semLimiteF.style="display: inline-block"
       },5600)
     
-  
+  setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
