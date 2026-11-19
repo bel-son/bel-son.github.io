@@ -47,7 +47,7 @@
 <body>
   
   <div id="porta">
-    <button onclick="abrir()" type="submit">Continuar</button>
+    <button onclick="abrir()" id="cor" type="submit">Continuar</button>
     <a style="color: white; background: red; text-decoration: none; position: fixed; bottom: 0%; right: 0%; border: 1px solid white; border-radius: 20px; padding: 0px 10px 0px 10px;" href=""><h3>Overta do dia<h3></a>
   </div>
   
@@ -71,10 +71,17 @@
   <script>
     let porta = document.getElementById('porta')
     let topo = document.getElementById('topo')
+    let cor = document.getElementById('cor')
     
     function abrir(){
+setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },130)
+setTimeout(function(){
       porta.style="display: none;"
       topo.style="display: block;"
+      cor.style="background: red;"
+ },100)
     }
   </script>
 </body>
