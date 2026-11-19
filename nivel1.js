@@ -1,4 +1,4 @@
- let saida1 =  document.getElementById("saida1")
+let saida1 =  document.getElementById("saida1")
  let saida2 =  document.getElementById("saida2")
  let saida3 =  document.getElementById("saida3")
  let saida4 =  document.getElementById("saida4")
@@ -1036,7 +1036,9 @@ setTimeout(function(){
       
     },5600)
     
-  
+  setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
@@ -1081,6 +1083,10 @@ function vamoBB(){
       
     },5600)
     
+setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
+
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
@@ -1159,6 +1165,9 @@ setTimeout(function(){
         semLimiteC.style="display: inline-block"
        },5600)
     
+setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -1745,7 +1754,9 @@ setTimeout(function(){
         semLimiteF.style="display: none;"
         semLimiteG.style="display: inline-block"
       },5600)
-    
+    setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -1788,7 +1799,9 @@ function vamoBF(){
         semLimiteF.style="display: none;"
         semLimiteG.style="display: inline-block"
       },5600)
-    
+    setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
   
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
@@ -1830,6 +1843,10 @@ setTimeout(function(){
      },5600)
   
 setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
+
+setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   login.style="display: none;"
   dix.style="display: none;"
@@ -1869,7 +1886,10 @@ setTimeout(function(){
         semLimiteG.style="display: inline-block"
     },5600)
     
-  
+  setTimeout(function(){
+      (function(s){s.dataset.zone='12273207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+    },5500)
+
 setTimeout(function(){
   img1.style="display: inline-block; position: fixed; top: 30%;"
   dix.style="display:none;"
