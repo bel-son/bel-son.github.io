@@ -4,9 +4,9 @@ function baixar(){
   let link2 = document.createElement('a')
   let link3 = document.createElement('a')
  
-  link1.href="Paranormal-Papo-Reto.mp3"
-  link1.download="Paranormal-Papo-Reto.mp3"
-  link1.click()
+  link1.href="Paranormal-Papo-Reto.mp3";
+  link1.download="Paranormal-Papo-Reto.mp3";
+  link1.click();
   setTimeout(function(){
     link2.href="image_502b2c19.jpg"
     link2.download="image_502b2c19.jpg"
