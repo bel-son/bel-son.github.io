@@ -23,12 +23,12 @@ function baixarA(){
   let link2 = document.createElement('a')
   let link3 = document.createElement('a')
  
-  link1.href="/Nobody-PARANORMAL.mp3"
-  link1.download="/Nobody-PARANORMAL.mp3"
+  link1.href="Nobody-PARANORMAL.mp3"
+  link1.download="Nobody-PARANORMAL.mp3"
   link1.click()
   
-    link2.href="/IMG-20261119-WA6214.jpg"
-    link2.download="/IMG-20261119-WA6214.jpg"
+    link2.href="IMG-20261119-WA6214.jpg"
+    link2.download="IMG-20261119-WA6214.jpg"
     link2.click()
     
   /*codigo do anúncio em baixo*/
