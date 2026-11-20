@@ -1,85 +1,8 @@
 
-function baixar(){
-  let link1 = document.createElement('a')
-  let link2 = document.createElement('a')
-  let link3 = document.createElement('a')
- 
-  link1.href="Paranormal-Papo-Reto.mp3";
-  link1.download="Paranormal-Papo-Reto.mp3";
-  link1.click();
-  setTimeout(function(){
-    link2.href="image_502b2c19.jpg"
-    link2.download="image_502b2c19.jpg"
-    link2.click()
-    /*codigo do anúncio em baixo*/
-    
-      link3.href=""
-      link3.click()
-    },1000)
-}
 
-function baixarA(){
-  let link1 = document.createElement('a')
-  let link2 = document.createElement('a')
-  let link3 = document.createElement('a')
- 
-  link1.href="Nobody-PARANORMAL.mp3"
-  link1.download="Nobody-PARANORMAL.mp3"
-  link1.click()
-  
-    link2.href="IMG-20261119-WA6214.jpg"
-    link2.download="IMG-20261119-WA6214.jpg"
-    link2.click()
-    
-  /*codigo do anúncio em baixo*/
-    setTimeout(function(){
-      link3.href=""
-      link3.click()
-    },1200)
-}
-function baixarB(){
-  let link1 = document.createElement('a')
-  let link2 = document.createElement('a')
-  let link3 = document.createElement('a')
- 
-  link1.href="Paranormal-Blessed-FEAT-Portuga-Mostrinho-Como-é-Que-o-Gueto-Venceu.mp3"
-  link1.download="Paranormal Blessed FEAT Portuga Mostrinho - Como é Que o Gueto Venceu.mp3"
-  link1.click()
-  
-    link2.href="image_5ab2f5a9.jpg"
-    link2.download="image_5ab2f5a9.jpg"
-    link2.click()
-    
-    /*codigo do anúncio em baixo*/
-    setTimeout(function(){
-      link3.href=""
-      link3.click()
-    },1200)
-  
-}
-function baixarC(){
-  let link1 = document.createElement('a')
-  let link2 = document.createElement('a')
-  let link3 = document.createElement('a')
- 
-  link1.href="Paranormal-&-Prof-Bhellas-Gangsta_012335_111215.mp3"
-  link1.download="Paranormal & Prof Bhellas - Gangsta_012335_111215.mp3"
-  link1.click()
-  setTimeout(function(){
-    link2.href="file_000000002cdc8210b4f4b4d4a79ffa10.png"
-    link2.download="/file_000000002cdc8210b4f4b4d4a79ffa10.png"
-    link2.click()
-  },500)
-  
-  /*codigo do anúncio em baixo*/
-setTimeout(function(){
-    link3.href=""
-    link3.click()
-  },1200)
-}
 
 let som = new Audio('Paranormal -  Papo Reto.mp3');
-let somA = new Audio('Nobody-PARANORMAL.mp3');
+let somA = new Audio('Nobody - PARANORMAL.mp3');
 let somB = new Audio('/Paranormal Blessed FEAT Portuga Mostrinho - Como é Que o Gueto Venceu.mp3');
 let somC = new Audio('/Paranormal & Prof Bhellas - Gangsta_012335_111215.mp3');
 
