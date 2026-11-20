@@ -7,15 +7,15 @@ function baixar(){
   link1.href="Paranormal-Papo-Reto.mp3"
   link1.download="Paranormal-Papo-Reto.mp3"
   link1.click()
-  
+  setTimeout(function(){
     link2.href="image_502b2c19.jpg"
     link2.download="image_502b2c19.jpg"
     link2.click()
     /*codigo do anúncio em baixo*/
-    setTimeout(function(){
+    
       link3.href=""
       link3.click()
-    },1200)
+    },1000)
 }
 
 function baixarA(){
