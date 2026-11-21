@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bel-son.github.io/portuga_monstrinho/sitemap.xml
