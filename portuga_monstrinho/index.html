@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Emviar formulário</title>
+  
+  <style>
+    body{
+      background: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    form{
+      text-align: center;
+    }
+    input{
+      width: 80%;
+      height: 40px;
+      font-size: 16px;
+      margin-bottom: 40px;
+      border-radius: 10px;
+    }
+    form button{
+      width: 85%;
+      height: 44px;
+      font-size: 18px;
+      color: #321708;
+      border: 1px solid blue;
+      border-radius: 20px;
+    }
+  </style>
+  
+</head>
+<body>
+  
+  <form onsubmit="enviar()" target="_blank" method="post">
+    <input type="text" maxlength="26" minlength="5" id="nome_usuario" onfocus="this.style='background:#DADBE9; border: none'" placeholder="Digite teu nome."  name="nome_usuario" required  >
+    <input type="email"  id="email_usuario" onfocus="this.style='background:#DADBE9; border: none'" placeholder="Digite teu email."  name="email_usuario" required  >
+    <input type="number" onfocus="this.style='background:#DADBE9; border: none'" name="numero" id="numero" mimlength="9" pattern="[0-9]+" value="+244" placeholder="numero de telefone" required />
+    <h3 style="color: red;" id="texto"></h3>
+    <button type="submit">Enviar</button>
+  </form>
+  
+  <script src="login.js"></script>
+</body>
+  </html>
