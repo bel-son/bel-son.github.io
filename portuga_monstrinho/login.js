@@ -12,3 +12,20 @@ function enviar(){
   
   window.open(enviar,'_blank');
 }
+ 
+ let som = new Audio('/AILÉ_-_Pela_Velha__feat._Léo_Ranny,_Portuga_Monstrinho,_BadiBanzelo_(128k).mp3')
+ 
+ function tocar(){
+   let paus = document.getElementById("pause")
+   let go = document.getElementById("simbolo")
+  paus.style="display: block;"
+  go.style="display: none;"
+ som.play()
+ }
+ function pause(){
+   let paus = document.getElementById("pause")
+   let go = document.getElementById("simbolo")
+  paus.style="display: none;"
+  go.style="display: block;"
+   som.pause()
+     }
