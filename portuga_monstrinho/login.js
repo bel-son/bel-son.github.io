@@ -1,4 +1,4 @@
-function enviar(){
+function enviar(event){
   event.preventDefault();
   let nome = document.getElementById('nome_usuario').value;
   let email = document.getElementById('email_usuario').value;
@@ -13,7 +13,7 @@ function enviar(){
   window.open(enviar,'_blank');
 }
  
- let som = new Audio('/AILÉ_-_Pela_Velha__feat._Léo_Ranny,_Portuga_Monstrinho,_BadiBanzelo_(128k).mp3')
+ let som = new Audio('AILÉ_-_Pela_Velha__feat._Léo_Ranny,_Portuga_Monstrinho,_BadiBanzelo_(128k).mp3')
  
  function tocar(){
    let paus = document.getElementById("pause")
