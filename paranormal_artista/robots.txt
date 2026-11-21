@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bel-son.github.io/paranormal_artista/sitemap.xml
