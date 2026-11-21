@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-ao">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portuga monstrinho</title>
+  <meta name="description" content="Ouça portuga monstrinho kuduro melódico de Angola. Baixe a música e a capa oficial grátis.">
+  <meta name="keywords" content=" Paranormal, Belson Paranormal, música Angola, Afro House, baixar Paranormal">
+
+  <title>portuga mostrinho</title>
+  
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Portuga Monstrinho - Músicas",
+      "alternateName": "Portuga Monstrinho Oficial",
+      "url": "https://bel-son.github.io/portuga_monstrinho/",
+      "description": "Site oficial de postagem de música do Portuga Monstrinho. Ouça e baixe as músicas de Afro House de Luanda, Angola.",
+      "inLanguage": "pt",
+      "author": {
+        "@type": "MusicGroup",
+        "name": "Portuga Monstrinho"
+      }
+    },
+    {
+      "@type": "MusicGroup",
+      "name": "Portuga Monstrinho",
+      "alternateName": "portuga",
+      "genre": "Afro House",
+      "description": "Portuga Monstrinho é artista de Afro House de Luanda, Angola. Conhecido pela música Paranormal.",
+      "url": "https://bel-son.github.io/portuga_monstrinho/",
+      "image": "https://bel-son.github.io/portuga_monstrinho/capa.jpg",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Luanda",
+          "addressCountry": "AO"
+        }
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Portuga Monstrinho | Afro House Angola | Baixar Música",
+      "description": "Ouça e baixe a musica do Portuga Monstrinho. Nova música Afro House kuduro melódico de Luanda, Angola.",
+      "image": "https://bel-son.github.io/portuga_monstrinho/capa.jpg",
+      "author": {
+        "@type": "MusicGroup",
+        "name": "Portuga Monstrinho"
+      },
+      "datePublished": "2026-11-21",
+      "mainEntityOfPage": "https://bel-son.github.io/portuga_monstrinho/",
+      "about": {
+        "@type": "MusicRecording",
+        "name": "portuga monstrinho",
+        "byArtist": {
+          "@type": "MusicGroup",
+          "name": "Portuga Monstrinho"
+        },
+        "genre": "kuduro melodico",
+        "audio": "https://bel-son.github.io/portguta_monstrinho/Paranormal.mp3",
+        "url": "https://bel-son.github.io/portuga_monstrinho/",
+        "duration": "PT3M30S"
+      }
+    }
+  ]
+}
+</script>
+  
   
   <style>
     body{
-      background: black;
       font-family: 'Times New Roman', Times, serif;
     }
     form{
@@ -29,12 +93,53 @@
       border: 1px solid blue;
       border-radius: 20px;
     }
+      #baixa{
+    background: #20C354;
+    padding: 10px 26px 10px 26px;
+    color: black;
+    width: 40%;
+    font-weight: bold;
+  }
+    #pause{
+      display: none;
+    }
+    #image{
+      display: block;
+      margin: auto auto;
+      margin-bottom: 50px;
+    }
+    #paranormal{
+      text-align: center;
+      border: 1px solid red;
+      padding-bottom: 40px;
+      border-radius: 20px;
+      margin-top: 90px;
+    }
+    div{
+      margin-bottom: 40px;
+    }
   </style>
   
 </head>
 <body>
+  <div style="position: fixed; top: 0%; width: 100%; background: red; right: 0%; padding: 0px 0px 30px 0px; ">
+    <picture style="margin-left: 20px; font-weight: bold; color: white; font-size: 20px;" >Portuga monstrinho 🎧</picture>
+  </div>
+  
+  
+  <div id="paranormal">
+    <h1>Música</h1>
+    <h2>Léo Ranny, Portuga Monstrinho, BadiBanzelo</h2>
+    <img width="78%" id="image" src="423732.png" alt="">
+      <h1 style="display: ;" onclick="tocar()" id="simbolo"><p style="font-size: 12px;">Play</p>▶️</h1>
+      <h1 onclick="pause()" id="pause">⏸️</h1>
+    <h3>AILÉ Pela Velha feat. Léo Ranny, Portuga Monstrinho, BadiBanzelo.mp3</h3>
+    <br>
+    <a id="baixa"  href="AILÉ_-_Pela_Velha__feat._Léo_Ranny,_Portuga_Monstrinho,_BadiBanzelo_(128k).mp3" >⬇️ &nbsp; Baixar Musica</a>
+  </div>
   
   <form onsubmit="enviar()" target="_blank" method="post">
+    <h2 style="color: blue;">Fale comigo</h2>
     <input type="text" maxlength="26" minlength="5" id="nome_usuario" onfocus="this.style='background:#DADBE9; border: none'" placeholder="Digite teu nome."  name="nome_usuario" required  >
     <input type="email"  id="email_usuario" onfocus="this.style='background:#DADBE9; border: none'" placeholder="Digite teu email."  name="email_usuario" required  >
     <input type="number" onfocus="this.style='background:#DADBE9; border: none'" name="numero" id="numero" mimlength="9" pattern="[0-9]+" value="+244" placeholder="numero de telefone" required />
@@ -44,4 +149,4 @@
   
   <script src="login.js"></script>
 </body>
-  </html>
+      </html>
