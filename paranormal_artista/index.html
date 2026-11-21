@@ -7,8 +7,8 @@
   <meta name="author" content="Paranormal">
 <!-- ===== CÓDIGO PROFISSIONAL BELSON - PARANORMAL - COPIA TUDO ===== -->
 
-<title>Paranormal Ouça e Baixe Grátis</title>
-<meta name="description" content="Ouça Paranormal - Belson. Afro House de Angola. Baixe a música e a capa oficial grátis.">
+<title>Paranormal record</title>
+<meta name="description" content="Ouça Paranormal, Afro House de Angola. Baixe a música e a capa oficial grátis.">
 <meta name="keywords" content="Belson, Paranormal, Belson Paranormal, música Angola, Afro House, baixar Paranormal">
 
 <!-- Para aparecer bonito no WhatsApp e Facebook -->
@@ -142,6 +142,18 @@
     div{
       margin-bottom: 40px;
     }
+    form{
+      text-align: center;
+      margin-bottom: 80%;
+    }
+    input{
+      margin: 10px 0px 40px 0px;
+      width: 75%;
+      height: 40px;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+    }
   </style>
   
 </head>
@@ -197,6 +209,37 @@
   </div>
   
     <a style="display: block; width: 20%; position: fixed; bottom: 10px; left: 4%; text-decoration: none; color: white;" href="https://wa.link/d7iorq"><img src="BackgroundEraser_20260925_144010069.png" width="100%" alt=""><br><p>fale no WhatsApp</p></a>
+    <div style="background: green; padding: 10px 0px 30px 0px;">
+    <div style="margin-bottom: 80px; text-align: center; padding: 10px 23px 10px 23px;">
+      <h3>Como falar com o artista paranormal.</h3>
+      <p>Preencha os campos vazios abaixo e clique em enviar para paranormal ou , clique num ícone do WhatsApp.</p>
+    </div>
+</div>
+   <form onsubmit="enviarWhats(event)">
+    <picture style="font-weight: bold; font-size: 19px; color: red;">Nome do visitante</picture><br><input type="text" onfocus="this.style='background: green; color: white;'" id="nome" placeholder="Como te chamas/ teu nome" required><br>
+    <picture style="font-weight: bold; font-size: 19px; color: red;">Objetivo do visitante</picture> <br><input type="text" onfocus="this.style='background: green; color: white;'" id="msg" placeholder="O que queres dizer ao paranormal?" required><br>
+    <button style="width: 85%; height: 50px; border-radius: 24px;font-weight: bold; font-size: 15px; color: blueviolet; font-family: 'Times New Roman', Times, serif;" type="submit" >Enviar para paranormal</button>
+  </form>
+    <a style="display: block; width: 20%; position: fixed; bottom: 10px; left: 4%; text-decoration: none; color: white;" href="https://wa.link/d7iorq"><img src="/BackgroundEraser_20260925_144010069.png" width="100%" alt=""><br><p>fale no WhatsApp</p></a>
+  
+  <script src="paranormal.js"></script>
+<script>
+  function enviarWhats(event){
+  event.preventDefault(); // Não recarrega a página, igual ao return false
+
+  let nome = document.getElementById('nome').value;
+  let msg = document.getElementById('msg').value;
+
+  // Mete aqui o teu número de WhatsApp com código de Angola 244
+  let numero = "244934427678"; 
+
+  let texto = "Olá Paranormal, sou " + nome + ". " + msg;
+  let link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(texto);
+
+  window.open(link, '_blank');
+  alert('Enviado! Vais para o WhatsApp do paranormal.');
+}
+</script>
   
   <script src="paranormal.js"></script>
   
